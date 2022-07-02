@@ -10,6 +10,6 @@
         <div style="display: flex; flex-direction: column; min-height: 100vh">
             <div style="flex: 1 0 auto">
                 <div class="bg-primary text-white p-2">
-                    <h1>P!NGFEST 2021</h1>
+                    <h1>P!NGFEST 2022</h1>
                 </div>
                 <div>

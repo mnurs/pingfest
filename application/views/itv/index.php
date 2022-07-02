@@ -13,7 +13,7 @@
 <div class="headline">
     <div class="item-headline">
         <h1>Uji Kemampuanmu di</h1>
-        <h1 class="auto-scroll">IT-Venture XIV</h1>
+        <h1 class="auto-scroll">IT-Venture XV</h1>
         <div class="riseit-container">
             <div style="--i:1" class="hay-text">R</div>
             <div style="--i:2" class="hay-text">i</div>
@@ -93,7 +93,7 @@
         </div>
         <div class="lomba-card ping-music">
             <div class="page page-1">
-                <p> IT-Music </p>
+                <p>  UI/UX </p>
                 <div class="daftar-button button-atas">
                     <a href="<?php echo site_url('profile/index').'?tab=e_music'; ?>" class="btn btn-arrow">
                         <span>
@@ -108,8 +108,8 @@
             <div class="page page-2">
                 <div class="scroll-text"><span>SCROLL AKU UNTUK SELENGKAPNYA</span></div>
                 <div class="deskripsi-wrapper">
-                    <p class="deskripsi-lomba">Asah kreatifitasmu dalam <span>Bidang Musik</span> dengan mengikuti
-                        IT-Music</p>
+                    <p class="deskripsi-lomba">Asah kreatifitasmu dalam <span>Bidang UI/UX</span> dengan mengikuti
+                         UI/UX</p>
                     <h4>Ketentuan</h4>
                     <hr>
                     <div class="deskripsi-text-line"> <i class="symbol fas fa-user"></i><span>Warga Indonesia<span>
@@ -155,7 +155,7 @@
         </div>
         <div class="lomba-card ping-paper">
             <div class="page page-1">
-                <p> IT-Paper </p>
+                <p> Esport </p>
                 <div class="daftar-button button-atas">
                     <a href="<?php echo site_url('profile/index').'?tab=e_paper'; ?>" class="btn btn-arrow">
                         <span>
@@ -170,8 +170,8 @@
             <div class="page page-2">
                 <div class="scroll-text"><span>SCROLL AKU UNTUK SELENGKAPNYA</span></div>
                 <div class="deskripsi-wrapper">
-                    <p class="deskripsi-lomba">Uji kemampuan kamu mengenai <span>Karya Tulis Ilmiah</span> dengan
-                        mengikuti IT-Paper</p>
+                    <p class="deskripsi-lomba">Uji kemampuan kamu mengenai <span>permainan game kamu</span> dengan
+                        mengikuti Esport</p>
                     <h4>Ketentuan</h4>
                     <hr>
                     <div class="deskripsi-text-line"> <i class="symbol fas fa-user"></i><span>S1/D3/Sederajat<span>
@@ -215,6 +215,69 @@
                 </div>
             </div>
         </div>
+
+        <div class="lomba-card ping-paper">
+            <div class="page page-1">
+                <p> Poster Digital </p>
+                <div class="daftar-button button-atas">
+                    <a href="<?php echo site_url('profile/index').'?tab=e_paper'; ?>" class="btn btn-arrow">
+                        <span>
+                            Daftar Sekarang
+                            <svg>
+                                <use xmlns:xlink="http://www.w3.org/1999/xlink" href="#button-arrow"></use>
+                            </svg>
+                        </span>
+                    </a>
+                </div>
+            </div>
+            <div class="page page-2">
+                <div class="scroll-text"><span>SCROLL AKU UNTUK SELENGKAPNYA</span></div>
+                <div class="deskripsi-wrapper">
+                    <p class="deskripsi-lomba">Uji kemampuan kamu mengenai <span>Design kalian</span> dengan
+                        mengikuti Poster Digital</p>
+                    <h4>Ketentuan</h4>
+                    <hr>
+                    <div class="deskripsi-text-line"> <i class="symbol fas fa-user"></i><span>S1/D3/Sederajat<span>
+                    </div>
+                    <div class="deskripsi-text-line"> <i class="symbol fas fa-user-friends"></i><span>1-3 orang<span>
+                    </div>
+                    <div class="deskripsi-text-line"> <i class="symbol fa fa-dollar-sign"></i><span>FREE!<span>
+                    </div>
+                    <h4>Hadiah</h4>
+                    <hr>
+                    <div class="deskripsi-text-line"> <b class="symbol">#1</b><span>Rp 2.000.000<span> </div>
+                    <div class="deskripsi-text-line"> <b class="symbol">#2</b><span>Rp 1.500.000<span> </div>
+                    <div class="deskripsi-text-line"> <b class="symbol">#3</b><span>Rp 1.000.000<span> </div>
+                    <h4>Timeline</h4>
+                    <hr>
+                    <div class="deskripsi-text-line timeline"> <b class="justify">Pendaftaran</b><span class="right">7
+                            Agustus 2021 <span> </div>
+                    <div class="deskripsi-text-line timeline"> <b class="justify">Maksimal Pengumpulan</b></i><span
+                            class="right">4 Oktober 2021<span> </div>
+                    <div class="deskripsi-text-line timeline"> <b class="justify">Final</b></i><span class="right">16
+                            Oktober 2021<span> </div>
+                    <div class="button-bawah-wrapper">
+                        <div class="guide-book-button">
+                            <a href="http://tiny.cc/GuidebookITV_IT-Paper" target="_blank" class="btn btn-arrow">
+                                <span>Guide Book</span>
+                            </a>
+                        </div>
+
+                        <div class="daftar-button">
+                            <a href="<?php echo site_url('profile/index').'?tab=e_paper'; ?>" class="btn btn-arrow">
+                                <span>
+                                    Daftar Sekarang
+                                    <svg>
+                                        <use xmlns:xlink="http://www.w3.org/1999/xlink" href="#button-arrow"></use>
+                                    </svg>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>  
     </div>
     <div class="daftar-itv">
         <div class="itv-guide-book button">

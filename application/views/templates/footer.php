@@ -140,8 +140,8 @@
                     <p>Gedung A FMIPA UNS, Surakarta, Jawa Tengah 57126 </p>
 
                     <i class="fa fa-phone"></i>
-                    <p> <a href="http://wa.me/6281239930252" target="_blank">(+62) 812 3993 0252</a> (sabil) <br> <a
-                            href="http://wa.me/6282139893021" target="_blank"> (+62) 821 3989 3021</a> (lia)</p>
+                    <p> <a href="http://wa.me/6285697128373" target="_blank">(+62) 856 9712 8373</a> (mahen) <br> <a
+                            href="http://wa.me/6288975594710" target="_blank"> (+62) 889 7559 4710</a> (adeline)</p>
 
                     <i class="fa fa-envelope"></i>
                     <p><a href="mailto:pingfest.himasteruns@gmail.com">pingfest.himasteruns@gmail.com</a></p>
@@ -165,7 +165,7 @@
         </div>
     </div>
     <div class="footer-bottom">
-        <div class="copyright">Copyright &copy; 2021, HIMASTER UNS</div>
+        <div class="copyright">Copyright &copy; 2022, HIMASTER UNS</div>
     </div>
 </footer>
 </div>
