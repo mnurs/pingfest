@@ -29,15 +29,11 @@
             <div style="--i:5" class="hay-text">I</div>
             <div style="--i:6" class="hay-text">T</div>
         </div>
-    <!--     <iframe max-width: 100%; height: auto; src="https://www.youtube.com/embed/kAzUq7Sr4yk?controls=0&rel=0"
+        
+        <iframe max-width: 100%; height: auto; src="https://www.youtube.com/embed/DdwhRt8nsgI?controls=0&rel=0"
             frameborder="0">
         </iframe>
- -->
-         <video class="logo-acara" poster="<?php echo base_url('public/pingfest/img/thumbnail.png'); ?>" controls="controls" preload="none" onclick="this.paused ? this.play() : this.pause();" style="padding-top: 100px">
-            <source src="<?php echo base_url('public/pingfest/video/aftermovie.mp4'); ?>" type="video/mp4">
-            Your browser does not support the video tag.
-        </video>
-
+ 
     </div>
 
     <!-- <div class="item countdown countdown-container">
