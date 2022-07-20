@@ -55,11 +55,11 @@
                     </div>
                     <h4>Hadiah</h4>
                     <hr>
-                    <div class="deskripsi-text-line"> <b class="symbol">#1</b><span>Rp 2.000.000 + Doorprize<span>
+                    <div class="deskripsi-text-line"> <b class="symbol">#1</b><span>Rp 2.000.000<span>
                     </div>
-                    <div class="deskripsi-text-line"> <b class="symbol">#2</b><span>Rp 1.500.000 + Doorprize<span>
+                    <div class="deskripsi-text-line"> <b class="symbol">#2</b><span>Rp 1.500.000<span>
                     </div>
-                    <div class="deskripsi-text-line"> <b class="symbol">#3</b><span>Rp 1.000.000 + Doorprize<span>
+                    <div class="deskripsi-text-line"> <b class="symbol">#3</b><span>Rp 1.000.000<span>
                     </div>
                     <h4>Timeline</h4>
                     <hr>
@@ -182,9 +182,12 @@
                     </div>
                     <h4>Hadiah</h4>
                     <hr>
-                    <div class="deskripsi-text-line"> <b class="symbol">#1</b><span>Rp 2.000.000<span> </div>
-                    <div class="deskripsi-text-line"> <b class="symbol">#2</b><span>Rp 1.500.000<span> </div>
-                    <div class="deskripsi-text-line"> <b class="symbol">#3</b><span>Rp 1.000.000<span> </div>
+                    <div class="deskripsi-text-line"> <b class="symbol">#1</b><span>Rp 2.000.000<span>
+                    </div>
+                    <div class="deskripsi-text-line"> <b class="symbol">#2</b><span>Rp 1.500.000<span>
+                    </div>
+                    <div class="deskripsi-text-line"> <b class="symbol">#3</b><span>Rp 1.000.000<span>
+                    </div>
                     <h4>Timeline</h4>
                     <hr>
                     <div class="deskripsi-text-line timeline"> <b class="justify">Pendaftaran</b><span class="right">7
@@ -245,9 +248,9 @@
                     </div>
                     <h4>Hadiah</h4>
                     <hr>
-                    <div class="deskripsi-text-line"> <b class="symbol">#1</b><span>Rp 2.000.000<span> </div>
-                    <div class="deskripsi-text-line"> <b class="symbol">#2</b><span>Rp 1.500.000<span> </div>
-                    <div class="deskripsi-text-line"> <b class="symbol">#3</b><span>Rp 1.000.000<span> </div>
+                    <div class="deskripsi-text-line"> <b class="symbol">#1</b><span>Rp 1.000.000 + Sertifikat<span> </div>
+                    <div class="deskripsi-text-line"> <b class="symbol">#2</b><span>Rp 750.000 + Sertifikat<span> </div>
+                    <div class="deskripsi-text-line"> <b class="symbol">#3</b><span>Rp 500.000 + Sertifikat<span> </div>
                     <h4>Timeline</h4>
                     <hr>
                     <div class="deskripsi-text-line timeline"> <b class="justify">Pendaftaran</b><span class="right">7

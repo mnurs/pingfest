@@ -7,11 +7,11 @@
     <div class="item-headline">
         <h1 class="auto-scroll">Webinar Nasional</h1>
         <div class="idea-container">
-            <div class="hay-text">Find</div>
+            <div class="hay-text idea">Wonderful</div>
             &#160;
-            <div class="hay-text">Your</div>
+            <div class="hay-text idea">of</div>
             &#160;
-            <div class="hay-text idea">Idea</div>
+            <div class="hay-text idea">IT</div>
         </div>
         <h1>Powered By Upscale & Bit</h1>
     </div>
@@ -21,8 +21,8 @@
         <div class="deskripsi-sem">
             <div class="deskripsi-main">
                 <h2>Apa itu FYI?</h2>
-                <p>Find Your Idea merupakan acara puncak dari P!NGFEST yang dikemas dalam bentuk webinar.</p>
-                <p> Find Your Idea bertujuan untuk meingkatkan percaya diri pendengar untuk menemukan ide dan
+                <p>Wonderful of IT merupakan acara puncak dari P!NGFEST yang dikemas dalam bentuk webinar.</p>
+                <p> Wonderful of IT bertujuan untuk meingkatkan percaya diri pendengar untuk menemukan ide dan
                     mengeluarkan
                     karya
                     yang dimiliki yang nantinya akan berguna untuk diri sendiri dan orang lain.</p>
@@ -33,11 +33,15 @@
                 </div>
                 <div class="text-wrapper">
                     <p class="list">-</p>
-                    <p> Meningkatkan motivasi kamu</p>
+                    <p> Menambah relasi</p>
                 </div>
                 <div class="text-wrapper">
                     <p class="list">-</p>
                     <p> E-Sertifikat (jika memiliki akun dan mendaftar seminar pada website ini)</p>
+                </div> 
+                <div class="text-wrapper">
+                    <p class="list">-</p>
+                    <p> Mendapatkan snack dan merchandise</p>
                 </div>
                 <div class="daftar-sem button">
                     <a href="<?php echo site_url('profile/index').'?tab=e_semnas'; ?>" class="btn daftar-block">
@@ -61,7 +65,7 @@
                         </svg>
                         <h4>Waktu</h4>
                         <div class="text-box-wrapper">
-                            <p>23 - 24 Oktober 2021</p>
+                            <p>12 November 2022</p>
                             <p>18.00 WIB - Selesai</p>
                         </div>
                     </div>
@@ -71,14 +75,8 @@
                                 d="M279.438 76C278.438 76 277.438 76.2 276.438 76.6L191.438 108 186.288 106.2C197.938 88.75 207.438 70.6 207.438 57.5 207.438 23.5 178.788-4 143.438-4S79.438 23.55 79.438 57.5C79.438 63.4 81.438 70.4 84.638 77.8L9.487 104C3.438 106.4-.562 112.3-.562 118.85V244C-.562 248.6 3.188 252 7.438 252 8.438 252 9.438 251.8 10.438 251.4L95.438 220 181.438 250.35C187.938 252.5 194.938 252.55 201.438 250.45L277.388 224C283.488 221.55 287.438 215.7 287.438 209.15V84C287.438 79.4 283.688 76 279.438 76ZM87.438 205.9 15.388 232.5 14.737 119.05 87.438 93.8ZM143.438 12C169.888 12 191.438 32.4 191.438 57.5 191.438 71 172.388 101.95 143.438 135.9 114.488 101.95 95.438 71 95.438 57.5 95.438 32.4 116.988 12 143.438 12ZM183.438 234.1 103.438 205.85V110.4C115.638 128.05 129.488 144.4 137.288 153.25 138.888 155.1 141.188 156 143.438 156S147.938 155.1 149.588 153.25C155.988 146 166.438 133.7 176.738 119.8L183.438 122.15ZM199.438 234.2V122.1L271.488 95.5 272.138 208.95ZM155.438 60C155.438 53.35 150.038 48 143.438 48S131.438 53.35 131.438 60C131.438 66.6 136.838 72 143.438 72S155.438 66.65 155.438 60Z" />
                         </svg>
                         <h4>Tempat</h4>
-                        <div class="text-box-wrapper">
-
-                            <a href="https://www.youtube.com/channel/UCLUJ6DRel_x7jglM6iZB0lQ" target="_blank">
-                                <p>Youtube <b>HIMASTER UNS</b></p>
-                            </a>
-                            <a href="https://www.instagram.com/pingfest/" target="_blank">
-                                <p>Instagram <b>@pingfest</b></p>
-                            </a>
+                        <div class="text-box-wrapper"> 
+                            <p>Auditorium UNS</p>
                         </div>
                     </div>
                 </div>
@@ -91,7 +89,12 @@
                         <h4>Harga</h4>
                         <div class="text-box-wrapper">
 
-                            <p>GRATIS!</p>
+                            <p>Presale 1   : <b>Rp65.000</b></p>
+                            <p>Presale 2   : <b>Rp70.000</b></p>
+                            <p>OTS         : <b>Rp80.000</b></p>
+                            
+
+
                         </div>
                     </div>
                     <div class="box-semnas">
@@ -174,4 +177,4 @@
 
 
 
-<script src="<?php echo base_url('public/pingfest/js/semnas.min.js'); ?>"></script>
+<!-- <script src="<?php echo base_url('public/pingfest/js/semnas.min.js'); ?>"></script> -->

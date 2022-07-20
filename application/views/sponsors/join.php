@@ -21,7 +21,8 @@
         <h1 class="title">Tertarik untuk bekerja sama dengan kami?</h1>
         <div class="mt-2">
             <div>Contact e-mail: <a href="mailto:sponsorshipping@gmail.com">sponsorshipping@gmail.com</a></div>
-            <div>Contact phone: <a href="https://wa.me/6289666242204">+6289666242204 (Lutfiana Arifah)</a></div>
+            <div>Contact phone: <a href="https://wa.me/6289666242204">+6282133720234 (Sarah Ulayya)</a></div>
+            <div>Contact line: <a href="#">sarahulayya7</a></div>
             <div>Proposal: <a href="https://bit.ly/SponsorPingfest2021">klik di sini</a></div>
         </div><br>
         <div class="mt-2">

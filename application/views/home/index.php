@@ -110,8 +110,8 @@
                     <div class="title">Seminar Nasional</div>
                     <div class="description">
                         Seminar Nasional merupakan salah satu rangkaian acara P!NGFEST yang diadakan setiap tahun dengan
-                        mengundang pembicara ternama. Pada tahun ini, Seminar Nasional mengusung tema Find Your Idea.
-                        Penyelenggaraaan Find Your Idea berencana meraih pasar peserta yang kekinian dengan era digital.
+                        mengundang pembicara ternama. Pada tahun ini, Seminar Nasional mengusung tema Wonderful of IT.
+                        Penyelenggaraaan Wonderful of IT berencana meraih pasar peserta yang kekinian dengan era digital.
                     </div>
                     <div class="text-button">
                         <a href="<?php echo site_url('semnas'); ?>" class="btn btn-arrow">

@@ -48,7 +48,7 @@ jQuery(document).ready(function () {
 class TextScramble {
   constructor(el) {
     this.el = el;
-    this.chars = 'FindYourIdea';
+    this.chars = 'WonderfulofIT';
     this.update = this.update.bind(this);
   }
   setText(newText) {
@@ -103,7 +103,7 @@ var idea = document.querySelector('.idea');
 var textArray = document.getElementsByClassName('hay-text');
 
 var indexText = 1;
-var hayText = ['Find', 'Your'];
+var hayText = ['Wonderful', 'of'];
 var counter = 2;
 $(document).on('mouseenter', '.idea', function () {
   if (counter == 0) {
@@ -114,7 +114,7 @@ $(document).on('mouseenter', '.idea', function () {
   const fxText = new TextScramble(textArray[counter]);
 
   fxIdea.setText(hayText[indexText]);
-  fxText.setText('Idea');
+  fxText.setText('IT');
 
   indexText = Math.abs(indexText - 1);
 
