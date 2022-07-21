@@ -23,8 +23,9 @@ class Profile extends CI_Controller {
         $tabs = [
             ['id' => 'registration', 'title' => 'Pendaftaran'],
             ['id' => 'e_battle', 'title' => 'Battle of Technology'],
-            ['id' => 'e_music', 'title' => 'IT-Music'],
-            ['id' => 'e_paper', 'title' => 'IT-Paper'],
+            ['id' => 'e_uiux', 'title' => 'UI/UX'],
+            ['id' => 'e_esport', 'title' => 'Esport'],
+            ['id' => 'e_poster', 'title' => 'Poster Digital'],
             ['id' => 'e_semnas', 'title' => 'Seminar Nasional']
         ];
 
@@ -64,63 +65,93 @@ class Profile extends CI_Controller {
                 $page = 'profile/index/unregistered';
                 $data = ['event' => 'battle'];
             }
-        } else if ($tab === 'e_music') {
-            $participant = $this->events->participant_get($_SESSION['user_id'], 'music', 'status');
+        } else if ($tab === 'e_uiux') {
+            $participant = $this->events->participant_get($_SESSION['user_id'], 'uiux', 'status');
             if (isset($participant) && ($participant['status'] == 1)) {
-                $identity = $this->events->music_get($_SESSION['user_id']);
-                if (isset($_SESSION['profile_music_identity'])) {
-                    $identity = $_SESSION['profile_music_identity'];
-                    unset($_SESSION['profile_music_identity']);
+                $identity = $this->events->uiux_get($_SESSION['user_id']);
+                if (isset($_SESSION['profile_uiux_identity'])) {
+                    $identity = $_SESSION['profile_uiux_identity'];
+                    unset($_SESSION['profile_uiux_identity']);
                 }
                 if (isset($identity)) {
-                    $event = $this->events->get('music', 'announcements, locked');
-                    $announcements = $event['announcements'];
-                    $locked = !empty($event['locked']);
-
-                    $page = 'profile/index/setup_music';
-                    $data = ['identity' => $identity, 'locked' => $locked, 'announcements' => $announcements];
-                } else {
-                    $page = 'profile/index/setup';
-                    $data = ['event' => 'music'];
-                }
-            } else {
-                $page = 'profile/index/unregistered';
-                $data = ['event' => 'music'];
-            }
-        } else if ($tab === 'e_paper') {
-            $participant = $this->events->participant_get($_SESSION['user_id'], 'paper', 'status');
-            if (isset($participant) && ($participant['status'] == 1)) {
-                $identity = $this->events->paper_get($_SESSION['user_id']);
-                if (isset($_SESSION['profile_paper_identity'])) {
-                    $identity = $_SESSION['profile_paper_identity'];
-                    unset($_SESSION['profile_paper_identity']);
-                }
-                if (isset($identity)) {
-                    $this->load->library('storage');
-
-                    $event = $this->events->get('paper', 'announcements, locked');
+                    $event = $this->events->get('uiux', 'announcements, locked');
                     $announcements = $event['announcements'];
                     $locked = !empty($event['locked']);
 
                     $idcard_url = NULL;
-                    if ($this->storage->exists('idcard/paper/'.$_SESSION['user_id'])) {
-                        $idcard_url = site_url('profile/paper_idcard');
-                    }
+                    if ($this->storage->exists('idcard/esport/'.$_SESSION['user_id'])) {
+                        $idcard_url = site_url('profile/esport_idcard');
+                    } 
 
-                    $submission_url = NULL;
-                    if ($this->storage->exists('submission/paper/'.$_SESSION['user_id'])) {
-                        $submission_url = site_url('profile/paper_submission');
-                    }
-
-                    $page = 'profile/index/setup_paper';
-                    $data = ['identity' => $identity, 'locked' => $locked, 'idcard_url' => $idcard_url, 'submission_url' => $submission_url, 'announcements' => $announcements];
+                    $page = 'profile/index/setup_uiux';
+                    $data = ['identity' => $identity, 'locked' => $locked, 'idcard_url' => $idcard_url, 'announcements' => $announcements];
                 } else {
                     $page = 'profile/index/setup';
-                    $data = ['event' => 'paper'];
+                    $data = ['event' => 'uiux'];
                 }
             } else {
                 $page = 'profile/index/unregistered';
-                $data = ['event' => 'paper'];
+                $data = ['event' => 'uiux'];
+            }
+        } else if ($tab === 'e_esport') {
+            $participant = $this->events->participant_get($_SESSION['user_id'], 'esport', 'status');
+            if (isset($participant) && ($participant['status'] == 1)) {
+                $identity = $this->events->esport_get($_SESSION['user_id']); 
+                if (isset($_SESSION['profile_esport_identity'])) {
+                    $identity = $_SESSION['profile_esport_identity'];
+                    unset($_SESSION['profile_esport_identity']);
+                }
+                if (isset($identity)) {
+                    $this->load->library('storage');
+
+                    $event = $this->events->get('esport', 'announcements, locked');
+                    $announcements = $event['announcements'];
+                    $locked = !empty($event['locked']);
+
+                    $idcard_url = NULL;
+                    if ($this->storage->exists('idcard/esport/'.$_SESSION['user_id'])) {
+                        $idcard_url = site_url('profile/esport_idcard');
+                    } 
+
+                    $page = 'profile/index/setup_esport';
+                    $data = ['identity' => $identity, 'locked' => $locked, 'idcard_url' => $idcard_url, 'announcements' => $announcements];
+                } else {
+                    $page = 'profile/index/setup';
+                    $data = ['event' => 'esport'];
+                }
+            } else {
+                $page = 'profile/index/unregistered';
+                $data = ['event' => 'esport'];
+            }
+        }else if ($tab === 'e_poster') {
+            $participant = $this->events->participant_get($_SESSION['user_id'], 'poster', 'status');
+            if (isset($participant) && ($participant['status'] == 1)) {
+                $identity = $this->events->poster_get($_SESSION['user_id']);
+                if (isset($_SESSION['profile_poster_identity'])) {
+                    $identity = $_SESSION['profile_poster_identity'];
+                    unset($_SESSION['profile_poster_identity']);
+                }
+                if (isset($identity)) {
+                    $this->load->library('storage');
+
+                    $event = $this->events->get('poster', 'announcements, locked');
+                    $announcements = $event['announcements'];
+                    $locked = !empty($event['locked']);
+
+                    $idcard_url = NULL;
+                    if ($this->storage->exists('idcard/poster/'.$_SESSION['user_id'])) {
+                        $idcard_url = site_url('profile/poster_idcard');
+                    }
+ 
+                    $page = 'profile/index/setup_poster';
+                    $data = ['identity' => $identity, 'locked' => $locked, 'idcard_url' => $idcard_url, 'announcements' => $announcements];
+                } else {
+                    $page = 'profile/index/setup';
+                    $data = ['event' => 'poster'];
+                }
+            } else {
+                $page = 'profile/index/unregistered';
+                $data = ['event' => 'poster'];
             }
         } else if ($tab === 'e_semnas') {
             $participant = $this->events->participant_get($_SESSION['user_id'], 'semnas', 'status');
@@ -152,7 +183,7 @@ class Profile extends CI_Controller {
             $events = $this->events->list_events();
 
             $registration_data = $this->events->participant_get_list($_SESSION['user_id']);
-            $registration = [];
+            $registration = []; 
             foreach ($registration_data as $item) {
                 $registration[$item['event_id']] = $item;
                 $registration[$item['event_id']]['expired'] = $item['timestamp'] + $invoice_expire;
@@ -160,10 +191,13 @@ class Profile extends CI_Controller {
                 case 'battle':
                     $registration[$item['event_id']]['setup'] = $this->events->battle_get($_SESSION['user_id']) !== NULL;
                     break;
-                case 'music':
+                case 'uiux':
                     $registration[$item['event_id']]['setup'] = $this->events->music_get($_SESSION['user_id']) !== NULL;
                     break;
-                case 'paper':
+                case 'esport':
+                    $registration[$item['event_id']]['setup'] = $this->events->esport_get($_SESSION['user_id']) !== NULL;
+                    break;
+                case 'poster':
                     $registration[$item['event_id']]['setup'] = $this->events->paper_get($_SESSION['user_id']) !== NULL;
                     break;
                 case 'semnas':
@@ -280,6 +314,7 @@ class Profile extends CI_Controller {
                     $identity['school'] = '';
                     $identity['phone'] = $this->user['phone'];
                     $identity['leader'] = $this->user['name'];
+                    $identity['email'] = $this->user['email'];
                     $identity['member_1'] = '';
                     $identity['member_2'] = '';
                     if ($this->events->battle_add($identity)) {
@@ -287,30 +322,44 @@ class Profile extends CI_Controller {
                     } else {
                         $_SESSION['profile_status'] = 'ERROR: Gagal membuat identitas. Silakan coba lagi. Hubungi CP apabila masalah masih berlanjut';
                     }
-                } else if ($event_id === 'music') {
+                } else if ($event_id === 'poster') {
                     $identity = [];
                     $identity['user_id'] = $_SESSION['user_id'];
-                    $identity['group_name'] = '';
-                    $identity['leader'] = $this->user['name'];
+                    $identity['name'] =  $this->user['name'];
+                    $identity['institution'] = "";
                     $identity['phone'] = $this->user['phone'];
-                    $identity['members'] = [];
-                    $identity['link_gdrive'] = '';
-                    $identity['link_igtv'] = '';
-                    if ($this->events->music_add($identity)) {
+                    $identity['email'] = $this->user['email']; 
+                    $identity['username_ig'] = "";
+                    if ($this->events->poster_add($identity)) {
                         $_SESSION['profile_status'] = 'SUCCESS: Berhasil membuat identitas. Silakan lengkapi identitas keikutsertaan anda sebelum terkunci';
                     } else {
                         $_SESSION['profile_status'] = 'ERROR: Gagal membuat identitas. Silakan coba lagi. Hubungi CP apabila masalah masih berlanjut';
                     }
-                } else if ($event_id === 'paper') {
+                }else if ($event_id === 'uiux') {
                     $identity = [];
                     $identity['user_id'] = $_SESSION['user_id'];
+                    $identity['team_name'] = '';
+                    $identity['institution'] = '';
+                    $identity['phone'] = $this->user['phone'];
+                    $identity['leader'] = $this->user['name'];
+                    $identity['email'] = $this->user['email']; 
+                    $identity['members'] = [];
+                    if ($this->events->uiux_add($identity)) {
+                        $_SESSION['profile_status'] = 'SUCCESS: Berhasil membuat identitas. Silakan lengkapi identitas keikutsertaan anda sebelum terkunci';
+                    } else {
+                        $_SESSION['profile_status'] = 'ERROR: Gagal membuat identitas. Silakan coba lagi. Hubungi CP apabila masalah masih berlanjut';
+                    }
+                } else if ($event_id === 'esport') {
+                    $identity = [];
+                    $identity['user_id'] = $_SESSION['user_id'];
+                    $identity['team_name'] = '';
                     $identity['institution'] = '';
                     $identity['leader'] = $this->user['name'];
                     $identity['phone'] = $this->user['phone'];
-                    $identity['members'] = [];
-                    $identity['title'] = '';
-                    $identity['abstract'] = '';
-                    if ($this->events->paper_add($identity)) {
+                    $identity['member'] = [];
+                    $identity['account_nickname'] = []; 
+                    $identity['account_id'] = []; 
+                    if ($this->events->esport_add($identity)) {
                         $_SESSION['profile_status'] = 'SUCCESS: Berhasil membuat identitas. Silakan lengkapi identitas keikutsertaan anda sebelum terkunci';
                     } else {
                         $_SESSION['profile_status'] = 'ERROR: Gagal membuat identitas. Silakan coba lagi. Hubungi CP apabila masalah masih berlanjut';

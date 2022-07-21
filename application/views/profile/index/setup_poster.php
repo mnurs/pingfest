@@ -20,33 +20,25 @@
         <div class="col-12" style="padding-bottom: 3rem">
             <form action="<?php echo site_url('profile/setup_battle'); ?>" method="post" enctype="multipart/form-data" onsubmit="return confirm('Apakah anda yakin?')">
                 <div class="form-group">
-                    <label>Nama Tim <span class="text-danger">*</span></label>
-                    <input <?php echo $locked ? 'readonly' : '' ?> type="text" class="form-control" name="team_name" placeholder="Nama Tim" value="<?php echo htmlspecialchars($identity['team_name']); ?>">
+                    <label>Nama <span class="text-danger">*</span></label>
+                    <input <?php echo $locked ? 'readonly' : '' ?> type="text" class="form-control" name="name" placeholder="Nama" value="<?php echo htmlspecialchars($identity['name']); ?>">
                 </div>
                 <div class="form-group">
                     <label>Asal Sekolah <span class="text-danger">*</span></label>
-                    <input <?php echo $locked ? 'readonly' : '' ?> type="text" class="form-control" name="school" placeholder="Asal Sekolah" value="<?php echo htmlspecialchars($identity['school']); ?>">
+                    <input <?php echo $locked ? 'readonly' : '' ?> type="text" class="form-control" name="institution" placeholder="Asal Sekolah" value="<?php echo htmlspecialchars($identity['institution']); ?>">
+                </div> 
+                <div class="form-group">
+                    <label>No. Telp <span class="text-danger">*</span></label>
+                    <input <?php echo $locked ? 'readonly' : '' ?> type="text" class="form-control" name="phone" placeholder="No. Telp" value="<?php echo htmlspecialchars($identity['phone']); ?>">
                 </div>
                 <div class="form-group">
-                    <label>Nama Ketua <span class="text-danger">*</span></label>
-                    <input <?php echo $locked ? 'readonly' : '' ?> type="text" class="form-control" name="leader" placeholder="Nama Ketua" value="<?php echo htmlspecialchars($identity['leader']); ?>">
-                </div>
+                    <label>Email <span class="text-danger">*</span></label>
+                    <input <?php echo $locked ? 'readonly' : '' ?> type="text" class="form-control" name="phone" placeholder="Email" value="<?php echo htmlspecialchars($identity['email']); ?>">
+                </div> 
                 <div class="form-group">
-                    <label>No. Telp. Ketua <span class="text-danger">*</span></label>
-                    <input <?php echo $locked ? 'readonly' : '' ?> type="text" class="form-control" name="phone" placeholder="No. Telp. Ketua" value="<?php echo htmlspecialchars($identity['phone']); ?>">
-                </div>
-                <div class="form-group">
-                    <label>Email Ketua <span class="text-danger">*</span></label>
-                    <input <?php echo $locked ? 'readonly' : '' ?> type="text" class="form-control" name="phone" placeholder="Email Ketua" value="<?php echo htmlspecialchars($identity['email']); ?>">
-                </div>
-                <div class="form-group">
-                    <label>Anggota #1 <span class="text-danger">*</span></label>
-                    <input <?php echo $locked ? 'readonly' : '' ?> type="text" class="form-control" name="member_1" placeholder="Anggota #1" value="<?php echo htmlspecialchars($identity['member_1']); ?>">
-                </div>
-                <div class="form-group">
-                    <label>Anggota #2 <span class="text-danger">*</span></label>
-                    <input <?php echo $locked ? 'readonly' : '' ?> type="text" class="form-control" name="member_2" placeholder="Anggota #2" value="<?php echo htmlspecialchars($identity['member_2']); ?>">
-                </div>
+                    <label>Username IG <span class="text-danger">*</span></label>
+                    <input <?php echo $locked ? 'readonly' : '' ?> type="text" class="form-control" name="username_ig" placeholder="Username IG" value="<?php echo htmlspecialchars($identity['username_ig']); ?>">
+                </div> 
                 <div class="form-group">
                     <label>Kartu Tanda Pelajar (PDF) <span class="text-danger">*</span></label>
                     <div>

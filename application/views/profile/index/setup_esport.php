@@ -18,14 +18,14 @@
             </div>
         <?php endif; ?>
         <div class="col-12" style="padding-bottom: 3rem">
-            <form action="<?php echo site_url('profile/setup_battle'); ?>" method="post" enctype="multipart/form-data" onsubmit="return confirm('Apakah anda yakin?')">
+            <form action="<?php echo site_url('profile/setup_esport'); ?>" method="post" enctype="multipart/form-data" onsubmit="return confirm('Apakah anda yakin?')">
                 <div class="form-group">
                     <label>Nama Tim <span class="text-danger">*</span></label>
                     <input <?php echo $locked ? 'readonly' : '' ?> type="text" class="form-control" name="team_name" placeholder="Nama Tim" value="<?php echo htmlspecialchars($identity['team_name']); ?>">
                 </div>
                 <div class="form-group">
                     <label>Asal Sekolah <span class="text-danger">*</span></label>
-                    <input <?php echo $locked ? 'readonly' : '' ?> type="text" class="form-control" name="school" placeholder="Asal Sekolah" value="<?php echo htmlspecialchars($identity['school']); ?>">
+                    <input <?php echo $locked ? 'readonly' : '' ?> type="text" class="form-control" name="institution" placeholder="Asal Sekolah" value="<?php echo htmlspecialchars($identity['institution']); ?>">
                 </div>
                 <div class="form-group">
                     <label>Nama Ketua <span class="text-danger">*</span></label>
@@ -34,18 +34,30 @@
                 <div class="form-group">
                     <label>No. Telp. Ketua <span class="text-danger">*</span></label>
                     <input <?php echo $locked ? 'readonly' : '' ?> type="text" class="form-control" name="phone" placeholder="No. Telp. Ketua" value="<?php echo htmlspecialchars($identity['phone']); ?>">
+                </div>   
+                <div class="form-group">
+                    <ul class="list-group" id="members-list">
+                        <li class="list-group-item">Daftar Anggota (Selain Ketua)</li>
+                        <?php for ($i = 0; $i <= 4; $i++): ?>
+                             <li class="list-group-item member-desc"><input <?php echo $locked ? 'readonly' : '' ?> type="text" class="form-control" name="member[]" placeholder="Anggota #<?php echo $i + 1; ?>" value="<?php if(isset($identity['member'][$i])) echo htmlspecialchars($identity['member'][$i]); ?>"></li>
+                        <?php endfor; ?> 
+                    </ul>
                 </div>
                 <div class="form-group">
-                    <label>Email Ketua <span class="text-danger">*</span></label>
-                    <input <?php echo $locked ? 'readonly' : '' ?> type="text" class="form-control" name="phone" placeholder="Email Ketua" value="<?php echo htmlspecialchars($identity['email']); ?>">
+                    <ul class="list-group" id="account_nickname-list">
+                        <li class="list-group-item">Daftar Nickname Anggota</li>
+                        <?php for ($j = 0; $j <= 5; $j++): ?>
+                            <li class="list-group-item account_nickname-desc"><input <?php echo $locked ? 'readonly' : '' ?> type="text" class="form-control" name="account_nickname[]" placeholder="Nickname Anggota #<?php echo $j + 1; ?>" value="<?php if(isset($identity['account_nickname'][$j])) echo htmlspecialchars($identity['account_nickname'][$j]); ?>"></li>
+                        <?php endfor; ?> 
+                    </ul>
                 </div>
                 <div class="form-group">
-                    <label>Anggota #1 <span class="text-danger">*</span></label>
-                    <input <?php echo $locked ? 'readonly' : '' ?> type="text" class="form-control" name="member_1" placeholder="Anggota #1" value="<?php echo htmlspecialchars($identity['member_1']); ?>">
-                </div>
-                <div class="form-group">
-                    <label>Anggota #2 <span class="text-danger">*</span></label>
-                    <input <?php echo $locked ? 'readonly' : '' ?> type="text" class="form-control" name="member_2" placeholder="Anggota #2" value="<?php echo htmlspecialchars($identity['member_2']); ?>">
+                    <ul class="list-group" id="account_id-list">
+                        <li class="list-group-item">Daftar ID Anggota</li>
+                        <?php for ($k = 0; $k <= 5; $k++): ?>
+                            <li class="list-group-item account_id-desc"><input <?php echo $locked ? 'readonly' : '' ?> type="text" class="form-control" name="account_id[]" placeholder="ID Anggota #<?php echo $k + 1; ?>" value="<?php if(isset($identity['account_id'][$k]))  echo htmlspecialchars($identity['account_id'][$k]); ?>"></li>
+                        <?php endfor; ?> 
+                    </ul>
                 </div>
                 <div class="form-group">
                     <label>Kartu Tanda Pelajar (PDF) <span class="text-danger">*</span></label>
@@ -58,7 +70,7 @@
                     <?php if (!$locked): ?>
                         <input type="file" class="form-control-file" name="idcard" accept="application/pdf">
                     <?php endif; ?>
-                    <small class="form-text text-muted">Unggah 1 file PDF yang berisi <b>3 foto kartu tanda pelajar</b> dari semua anggota tim (maks <b>15MB</b>)</small>
+                    <small class="form-text text-muted">Unggah 1 file PDF yang berisi <b>6 foto kartu tanda pelajar</b> dari semua anggota tim (maks <b>15MB</b>)</small>
                 </div>
                 <div class="form-group">
                     <button <?php echo $locked ? 'disabled' : '' ?> type="submit" class="btn btn-success" name="submit" value="1"><span class="fa fa-sync mr-2"></span> Update</button>

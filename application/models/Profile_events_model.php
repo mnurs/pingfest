@@ -104,6 +104,86 @@ class Profile_events_model extends CI_Model {
         return $this->db->where('user_id', $user_id)->update('paper_data', $identity);
     }
 
+
+    public function esport_add($identity) {
+        if (isset($identity['member'])) {
+            $identity['member'] = $this->json_serialize($identity['member']);
+        }
+        if (isset($identity['account_nickname'])) {
+            $identity['account_nickname'] = $this->json_serialize($identity['account_nickname']);
+        }
+        if (isset($identity['account_id'])) {
+            $identity['account_id'] = $this->json_serialize($identity['account_id']);
+        }
+        return $this->db->insert('esport_data', $identity);
+    }
+
+    public function esport_get($user_id, $columns = '*') {
+        $identity = $this->db->select($columns)->from('esport_data')->where('user_id', $user_id)->get()->row_array(0);
+        if (isset($identity['member'])) {
+            $identity['member'] = $this->json_deserialize($identity['member']);
+        }
+        if (isset($identity['account_nickname'])) {
+            $identity['account_nickname'] = $this->json_deserialize($identity['account_nickname']);
+        }
+        if (isset($identity['account_id'])) {
+            $identity['account_id'] = $this->json_deserialize($identity['account_id']);
+        }
+        return $identity;
+    }
+
+    public function esport_set($user_id, $identity) {
+        if (isset($identity['member'])) {
+            $identity['member'] = $this->json_serialize($identity['member']); 
+        }
+        if (isset($identity['account_nickname'])) {
+            $identity['account_nickname'] = $this->json_serialize($identity['account_nickname']);
+        }
+        if (isset($identity['account_id'])) {
+            $identity['account_id'] = $this->json_serialize($identity['account_id']);
+        }
+        return $this->db->where('user_id', $user_id)->update('esport_data', $identity);
+    }
+
+
+    public function poster_add($identity) { 
+        return $this->db->insert('poster_data', $identity);
+    }
+
+    public function poster_get($user_id, $columns = '*') {
+        $identity = $this->db->select($columns)->from('poster_data')->where('user_id', $user_id)->get()->row_array(0); 
+        return $identity;
+    }
+
+    public function poster_set($user_id, $identity) { 
+        return $this->db->where('user_id', $user_id)->update('poster_data', $identity);
+    }
+
+
+
+    public function uiux_add($identity) {
+        if (isset($identity['members'])) {
+            $identity['members'] = $this->json_serialize($identity['members']);
+        }
+        return $this->db->insert('uiux_data', $identity);
+    }
+
+    public function uiux_get($user_id, $columns = '*') {
+        $identity = $this->db->select($columns)->from('uiux_data')->where('user_id', $user_id)->get()->row_array(0);
+        if (isset($identity['members'])) {
+            $identity['members'] = $this->json_deserialize($identity['members']);
+        }
+        return $identity;
+    }
+
+    public function uiux_set($user_id, $identity) {
+        if (isset($identity['members'])) {
+            $identity['members'] = $this->json_serialize($identity['members']);
+            var_dump($identity['members']);
+        }
+        return $this->db->where('user_id', $user_id)->update('uiux_data', $identity);
+    }
+
     public function semnas_add($identity) {
         return $this->db->insert('semnas_data', $identity);
     }
