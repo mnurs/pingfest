@@ -444,12 +444,14 @@ class Profile extends CI_Controller {
                 $identity['school'] = $this->input->post('school');
                 $identity['phone'] = $this->input->post('phone');
                 $identity['leader'] = $this->input->post('leader');
+                $identity['email'] = $this->input->post('email');
                 $identity['member_1'] = $this->input->post('member_1');
                 $identity['member_2'] = $this->input->post('member_2');
 
                 $this->form_validation->set_rules('team_name', 'Nama Tim', 'required|max_length[100]');
                 $this->form_validation->set_rules('school', 'Asal Sekolah', 'required|max_length[100]');
                 $this->form_validation->set_rules('phone', 'No. Telp. Ketua', 'required|max_length[20]');
+                $this->form_validation->set_rules('email', 'Email Ketua', 'required|max_length[100]');
                 $this->form_validation->set_rules('leader', 'Nama Ketua', 'required|max_length[100]');
                 $this->form_validation->set_rules('member_1', 'Anggota #1', 'required|max_length[100]');
                 $this->form_validation->set_rules('member_2', 'Anggota #2', 'required|max_length[100]');

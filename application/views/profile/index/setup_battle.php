@@ -33,15 +33,15 @@
                 </div>
                 <div class="form-group">
                     <label>No. Telp. Ketua <span class="text-danger">*</span></label>
-                    <input <?php echo $locked ? 'readonly' : '' ?> type="text" class="form-control" name="phone" placeholder="No. Telp. Ketua" value="<?php echo htmlspecialchars($identity['phone']); ?>">
+                    <input <?php echo $locked ? 'readonly' : '' ?> type="text" class="form-control" name="phone" placeholder="No. Telp. Ketua" value="<?php if(isset($identity['phone'])) echo htmlspecialchars($identity['phone']); ?>">
                 </div>
                 <div class="form-group">
                     <label>Email Ketua <span class="text-danger">*</span></label>
-                    <input <?php echo $locked ? 'readonly' : '' ?> type="text" class="form-control" name="phone" placeholder="Email Ketua" value="<?php echo htmlspecialchars($identity['email']); ?>">
+                    <input <?php echo $locked ? 'readonly' : '' ?> type="text" class="form-control" name="email" placeholder="Email Ketua" value="<?php if(isset($identity['email'])) echo htmlspecialchars($identity['email']); ?>">
                 </div>
                 <div class="form-group">
                     <label>Anggota #1 <span class="text-danger">*</span></label>
-                    <input <?php echo $locked ? 'readonly' : '' ?> type="text" class="form-control" name="member_1" placeholder="Anggota #1" value="<?php echo htmlspecialchars($identity['member_1']); ?>">
+                    <input <?php echo $locked ? 'readonly' : '' ?> type="text" class="form-control" name="member_1" placeholder="Anggota #1" value="<?php if(isset($identity['member_1'])) echo htmlspecialchars($identity['member_1']); ?>">
                 </div>
                 <div class="form-group">
                     <label>Anggota #2 <span class="text-danger">*</span></label>

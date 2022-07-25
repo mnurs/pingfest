@@ -43,7 +43,7 @@ class Participants_Poster extends CI_Controller {
 
 	public function id_card($id){
 		if(!empty($this->session->userdata("username_admin"))){
-			$this->pingfest->view_uiux_idcard($id);
+			$this->pingfest->view_poster_idcard($id);
 		}else{
 			redirect(site_url('admin/login/index'));
 		}
