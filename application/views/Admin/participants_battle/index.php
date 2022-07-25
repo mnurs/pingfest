@@ -38,6 +38,7 @@
                       <th>Nama tim</th>
                       <th>Asal sekolah</th>
                       <th>Phone</th>
+                      <th>Email</th>
                       <th>Daftar anggota</th>
                       <th>Action</th>
                     </tr>
@@ -59,6 +60,9 @@
                       </td>
                       <td>
                        <?php echo $bettle->phone ?>
+                      </td>
+                      <td>
+                       <?php echo $bettle->email ?>
                       </td>
                       <td class="small">
                         <ul> 

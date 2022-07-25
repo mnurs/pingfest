@@ -46,15 +46,21 @@
                 </a>
               </li>
               <li class="nav-item">
-                <a href="<?php echo site_url('admin/participants_music') ?>" class="nav-link">
+                <a href="<?php echo site_url('admin/participants_esport') ?>" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>IT-Music</p>
+                  <p>Esport</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="<?php echo site_url('admin/participants_paper') ?>" class="nav-link">
+                <a href="<?php echo site_url('admin/participants_poster') ?>" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>IT-Peper</p>
+                  <p>Poster Digital</p>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="<?php echo site_url('admin/participants_uiux') ?>" class="nav-link">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>UI/UX</p>
                 </a>
               </li>
               <li class="nav-item">

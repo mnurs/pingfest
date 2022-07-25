@@ -30,6 +30,18 @@ class Pingfest {
         $this->ci->storage->access('idcard/battle/'.$user_id, 10, 'IDCARD_BATTLE_'.url_title($user_id).'.pdf');
     }
 
+    public function view_uiux_idcard($user_id) {
+        $this->ci->storage->access('idcard/uiux/'.$user_id, 10, 'IDCARD_UIUX_'.url_title($user_id).'.pdf');
+    }
+
+     public function view_poster_idcard($user_id) {
+        $this->ci->storage->access('idcard/poster/'.$user_id, 10, 'IDCARD_POSTER_'.url_title($user_id).'.pdf');
+    }
+
+     public function view_esport_idcard($user_id) {
+        $this->ci->storage->access('idcard/esport/'.$user_id, 10, 'IDCARD_ESPORT_'.url_title($user_id).'.pdf');
+    }
+
     public function view_paper_idcard($user_id) {
         $this->ci->storage->access('idcard/paper/'.$user_id, 10, 'IDCARD_PAPER_'.url_title($user_id).'.pdf');
     }

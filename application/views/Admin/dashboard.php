@@ -45,14 +45,14 @@
             <!-- small box -->
             <div class="small-box bg-info">
               <div class="inner">
-                <h3><?php echo $countMusic ?></h3>
+                <h3><?php echo $countUIUX ?></h3>
 
-                <p>Music</p>
+                <p>UI/UX</p>
               </div>
               <div class="icon">
                 <i class="ion ion-stats-bars"></i>
               </div>
-              <a href="<?php echo site_url('admin/participants_music') ?>" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+              <a href="<?php echo site_url('admin/participants_uiux') ?>" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
             </div>
           </div>
          
@@ -61,16 +61,33 @@
             <!-- small box -->
             <div class="small-box bg-warning">
               <div class="inner">
-                <h3><?php echo $countPaper ?></h3>
+                <h3><?php echo $countEsport ?></h3>
 
-                <p>Paper</p>
+                <p>Esport</p>
               </div>
               <div class="icon">
                 <i class="ion ion-stats-bars"></i>
               </div>
-              <a href="<?php echo site_url('admin/participants_paper') ?>" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+              <a href="<?php echo site_url('admin/participants_esport') ?>" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
             </div>
           </div>
+
+          <!-- ./col -->
+          <div class="col-lg-2 col-6">
+            <!-- small box -->
+            <div class="small-box bg-primary">
+              <div class="inner">
+                <h3><?php echo $countPoster ?></h3>
+
+                <p>Poster Digital</p>
+              </div>
+              <div class="icon">
+                <i class="ion ion-stats-bars"></i>
+              </div>
+              <a href="<?php echo site_url('admin/participants_poster') ?>" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+            </div>
+          </div>
+
           <!-- ./col -->
           <div class="col-lg-2 col-6">
             <!-- small box -->
@@ -124,14 +141,14 @@
             <!-- small box -->
             <div class="small-box bg-info">
               <div class="inner">
-                <h5><?php echo "Rp. ". number_format($sumMusic->invoice,0) ?></h5>
+                <h5><?php echo "Rp. ". number_format($sumUIUX->invoice,0) ?></h5>
 
-                <p>Music</p>
+                <p>UI/UX</p>
               </div>
               <div class="icon">
                 <i class="fas fa-dollar-sign"></i>
               </div>
-              <a href="<?php echo site_url('admin/participants_music') ?>" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+              <a href="<?php echo site_url('admin/participants_uiux') ?>" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
             </div>
           </div>
          
@@ -140,16 +157,33 @@
             <!-- small box -->
             <div class="small-box bg-warning">
               <div class="inner">
-                <h5><?php echo "Rp. ". number_format($sumPaper->invoice,0) ?></h5>
+                <h5><?php echo "Rp. ". number_format($sumEsport->invoice,0) ?></h5>
 
-                <p>Paper</p>
+                <p>Esport</p>
               </div>
               <div class="icon">
                 <i class="fas fa-dollar-sign"></i>
               </div>
-              <a href="<?php echo site_url('admin/participants_paper') ?>" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+              <a href="<?php echo site_url('admin/participants_esport') ?>" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
             </div>
           </div>
+
+           <!-- ./col -->
+          <div class="col-lg-2 col-6">
+            <!-- small box -->
+            <div class="small-box bg-primary">
+              <div class="inner">
+                <h5><?php echo "Rp. ". number_format($sumPoster->invoice,0) ?></h5>
+
+                <p>Poster Digital</p>
+              </div>
+              <div class="icon">
+                <i class="fas fa-dollar-sign"></i>
+              </div>
+              <a href="<?php echo site_url('admin/participants_poster') ?>" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+            </div>
+          </div>
+
           <!-- ./col -->
           <div class="col-lg-2 col-6">
             <!-- small box -->

@@ -30,22 +30,20 @@ class Dashboard extends CI_Controller {
 	 */
 	public function index()
 	{
-		if(!empty($this->session->userdata("username_admin"))){
-			// $countBettle = $this->Bettle_model->countRow(); 
-			// $countMusic = $this->Music_model->countRow(); 
-			// $countPaper = $this->Paper_model->countRow(); 
-			// $countSemnas = $this->Semnas_model->countRow(); 
+		if(!empty($this->session->userdata("username_admin"))){ 
 			$countBettle = $this->Event_participant_model->countTableRow('battle'); 
-			$countMusic = $this->Event_participant_model->countTableRow('music'); 
-			$countPaper = $this->Event_participant_model->countTableRow('paper'); 
+			$countEsport = $this->Event_participant_model->countTableRow('esport'); 
+			$countPoster = $this->Event_participant_model->countTableRow('poster'); 
+			$countUIUX = $this->Event_participant_model->countTableRow('uiux'); 
 			$countSemnas = $this->Event_participant_model->countTableRow('semnas'); 
 			$countParticipant = $this->Event_participant_model->countRow(1); 
 			$countBelumParticipant = $this->Event_participant_model->countRow(0); 
 			$countAkun = $this->User_model->countRow(); 
 
 			$sumBettle = $this->Event_participant_model->sumPrice('battle'); 
-			$sumMusic = $this->Event_participant_model->sumPrice('music'); 
-			$sumPaper = $this->Event_participant_model->sumPrice('paper'); 
+			$sumEsport = $this->Event_participant_model->sumPrice('esport'); 
+			$sumPoster = $this->Event_participant_model->sumPrice('poster'); 
+			$sumUIUX = $this->Event_participant_model->sumPrice('uiux'); 
 			$sumSemnas = $this->Event_participant_model->sumPrice('semnas'); 
 			$sumSemua = $this->Event_participant_model->sumPriceAll(); 
 
@@ -54,13 +52,15 @@ class Dashboard extends CI_Controller {
 			$this->load->view('/Admin/templates/sidebar');
 			$this->load->view('/Admin/dashboard',[
 				'countBettle' => $countBettle,
-				'countMusic' => $countMusic,
-				'countPaper' => $countPaper,
+				'countEsport' => $countEsport,
+				'countPoster' => $countPoster,
+				'countUIUX' => $countUIUX,
 				'countSemnas' => $countSemnas,
 				'countParticipant' => $countParticipant,
 				'sumBettle' => $sumBettle,
-				'sumMusic' => $sumMusic,
-				'sumPaper' => $sumPaper,
+				'sumEsport' => $sumEsport,
+				'sumPoster' => $sumPoster,
+				'sumUIUX' => $sumUIUX,
 				'sumSemnas' => $sumSemnas,
 				'sumSemua' => $sumSemua,
 				'countBelumParticipant' => $countBelumParticipant,
