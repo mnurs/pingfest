@@ -554,6 +554,64 @@ class Profile extends CI_Controller {
         return $this->pingfest->view_uiux_idcard($_SESSION['user_id']);
     }
 
+
+
+    public function setup_poster() {
+        $this->check_login();
+
+        $site = site_url('profile/index').'?tab=e_poster';
+
+        $identity = $this->events->poster_get($_SESSION['user_id']);
+        if (!isset($identity)) {
+            redirect($site);
+        }
+
+        $locked = !empty($this->events->get('poster', 'locked')['locked']);
+
+        if (!empty($this->input->post('submit'))) {
+            if (!$locked) {
+                $this->load->library('form_validation');
+
+                $identity = [];
+                $identity['name'] = $this->input->post('name');
+                $identity['institution'] = $this->input->post('institution'); 
+                $identity['phone'] = $this->input->post('phone');
+                $identity['email'] = $this->input->post('email');
+                $identity['username_ig'] = $this->input->post('username_ig');
+ 
+                $this->form_validation->set_rules('name', 'Nama', 'required|max_length[100]');
+                $this->form_validation->set_rules('institution', 'Asal Institusi', 'required|max_length[100]'); 
+                $this->form_validation->set_rules('phone', 'No. Telp.', 'required|max_length[20]');
+                $this->form_validation->set_rules('email', 'Email', 'required|max_length[100]'); 
+                $this->form_validation->set_rules('username_ig', 'Username IG', 'required|max_length[100]'); 
+
+                if ($this->form_validation->run()) { 
+                    if ($this->events->poster_set($_SESSION['user_id'], $identity)) {
+                        $upload_status = $this->upload_poster_idcard();
+
+                        $_SESSION['profile_status'] = 'SUCCESS: Berhasil memperbarui identitas'.(!$upload_status ? ' namun gagal mengunggah file kartu tanda pelajar' : '').'. Terima kasih telah mendaftar pada event kami';
+                    } else {
+                        $_SESSION['profile_status'] = 'ERROR: Gagal memperbarui identitas. Silakan coba lagi. Kontak CP apabila masalah masih berlanjut';
+                    } 
+                } else {
+                    $_SESSION['profile_status'] = 'ERROR: '.implode(' ', $this->form_validation->error_array());
+                }
+
+                $_SESSION['profile_poster_identity'] = $identity;
+            } else {
+                $_SESSION['profile_status'] = 'ERROR: Pengisian data sudah dikunci. Anda tidak dapat merubah identitas anda lagi';
+            }
+        }
+
+        redirect($site);
+    }
+
+    public function poster_idcard() {
+        $this->check_login();
+
+        return $this->pingfest->view_poster_idcard($_SESSION['user_id']);
+    }
+
     public function setup_paper() {
         $this->check_login();
 
@@ -772,6 +830,10 @@ class Profile extends CI_Controller {
 
     private function upload_uiux_idcard() {
         return $this->upload_form_file('idcard/uiux/'.$_SESSION['user_id'], 'idcard', 'application/pdf', 15728640);
+    }
+
+    private function upload_poster_idcard() {
+        return $this->upload_form_file('idcard/poster/'.$_SESSION['user_id'], 'idcard', 'application/pdf', 20971520);
     }
 
     private function upload_paper_idcard() {

@@ -18,7 +18,7 @@
             </div>
         <?php endif; ?>
         <div class="col-12" style="padding-bottom: 3rem">
-            <form action="<?php echo site_url('profile/setup_battle'); ?>" method="post" enctype="multipart/form-data" onsubmit="return confirm('Apakah anda yakin?')">
+            <form action="<?php echo site_url('profile/setup_poster'); ?>" method="post" enctype="multipart/form-data" onsubmit="return confirm('Apakah anda yakin?')">
                 <div class="form-group">
                     <label>Nama <span class="text-danger">*</span></label>
                     <input <?php echo $locked ? 'readonly' : '' ?> type="text" class="form-control" name="name" placeholder="Nama" value="<?php echo htmlspecialchars($identity['name']); ?>">
@@ -33,7 +33,7 @@
                 </div>
                 <div class="form-group">
                     <label>Email <span class="text-danger">*</span></label>
-                    <input <?php echo $locked ? 'readonly' : '' ?> type="text" class="form-control" name="phone" placeholder="Email" value="<?php echo htmlspecialchars($identity['email']); ?>">
+                    <input <?php echo $locked ? 'readonly' : '' ?> type="text" class="form-control" name="email" placeholder="Email" value="<?php echo htmlspecialchars($identity['email']); ?>">
                 </div> 
                 <div class="form-group">
                     <label>Username IG <span class="text-danger">*</span></label>
