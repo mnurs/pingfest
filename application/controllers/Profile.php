@@ -555,6 +555,79 @@ class Profile extends CI_Controller {
     }
 
 
+    public function setup_esport() {
+        $this->check_login();
+
+        $site = site_url('profile/index').'?tab=e_esport';
+
+        $identity = $this->events->esport_get($_SESSION['user_id']);
+        if (!isset($identity)) {
+            redirect($site);
+        }
+
+        $locked = !empty($this->events->get('esport', 'locked')['locked']);
+
+        if (!empty($this->input->post('submit'))) {
+            if (!$locked) {
+                $this->load->library('form_validation');
+
+                $identity = [];
+                $identity['team_name'] = $this->input->post('team_name');
+                $identity['leader'] = $this->input->post('leader');
+                $identity['member'] = $this->input->post('member');
+                $identity['account_nickname'] = $this->input->post('account_nickname');
+                $identity['account_id'] = $this->input->post('account_id');
+                $identity['phone'] = $this->input->post('phone'); 
+                $identity['institution'] = $this->input->post('institution');
+
+                if (!isset($identity['member'])) {
+                    $identity['member'] = [];
+                }
+
+                if (!isset($identity['account_nickname'])) {
+                    $identity['account_nickname'] = [];
+                }
+
+                if (!isset($identity['account_id'])) {
+                    $identity['account_id'] = [];
+                }
+
+                $this->form_validation->set_rules('team_name', 'Nama Tim', 'required|max_length[100]');
+                $this->form_validation->set_rules('institution', 'Asal Sekolah', 'required|max_length[100]');
+                $this->form_validation->set_rules('leader', 'Nama Ketua', 'required|max_length[100]');
+                $this->form_validation->set_rules('phone', 'No. Telp. Ketua', 'required|max_length[20]'); 
+
+                if ($this->form_validation->run()) {
+                    if ($this->events->esport_verify_team($_SESSION['user_id'], $identity['team_name'])) {
+                        if ($this->events->esport_set($_SESSION['user_id'], $identity)) {
+                            $upload_status = $this->upload_esport_idcard();
+
+                            $_SESSION['profile_status'] = 'SUCCESS: Berhasil memperbarui identitas'.(!$upload_status ? ' namun gagal mengunggah file kartu tanda pelajar' : '').'. Terima kasih telah mendaftar pada event kami';
+                        } else {
+                            $_SESSION['profile_status'] = 'ERROR: Gagal memperbarui identitas. Silakan coba lagi. Kontak CP apabila masalah masih berlanjut';
+                        }
+                    } else {
+                        $_SESSION['profile_status'] = 'ERROR: Tidak dapat menggunakan nama tim tersebut';
+                    }
+                } else {
+                    $_SESSION['profile_status'] = 'ERROR: '.implode(' ', $this->form_validation->error_array());
+                }
+
+                $_SESSION['profile_esport_identity'] = $identity;
+            } else {
+                $_SESSION['profile_status'] = 'ERROR: Pengisian data sudah dikunci. Anda tidak dapat merubah identitas anda lagi';
+            }
+        }
+
+        redirect($site);
+    }
+
+    public function esport_idcard() {
+        $this->check_login();
+
+        return $this->pingfest->view_esport_idcard($_SESSION['user_id']);
+    }
+
 
     public function setup_poster() {
         $this->check_login();
@@ -830,6 +903,10 @@ class Profile extends CI_Controller {
 
     private function upload_uiux_idcard() {
         return $this->upload_form_file('idcard/uiux/'.$_SESSION['user_id'], 'idcard', 'application/pdf', 15728640);
+    }
+
+    private function upload_esport_idcard() {
+        return $this->upload_form_file('idcard/esport/'.$_SESSION['user_id'], 'idcard', 'application/pdf', 20971520);
     }
 
     private function upload_poster_idcard() {
