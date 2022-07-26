@@ -95,7 +95,7 @@
             <div class="page page-1">
                 <p>  UI/UX </p>
                 <div class="daftar-button button-atas">
-                    <a href="<?php echo site_url('profile/index').'?tab=e_music'; ?>" class="btn btn-arrow">
+                    <a href="<?php echo site_url('profile/index').'?tab=e_uiux'; ?>" class="btn btn-arrow">
                         <span>
                             Daftar Sekarang
                             <svg>
@@ -139,7 +139,7 @@
                         </div>
 
                         <div class="daftar-button">
-                            <a href="<?php echo site_url('profile/index').'?tab=e_music'; ?>" class="btn btn-arrow">
+                            <a href="<?php echo site_url('profile/index').'?tab=e_uiux'; ?>" class="btn btn-arrow">
                                 <span>
                                     Daftar Sekarang
                                     <svg>
@@ -157,7 +157,7 @@
             <div class="page page-1">
                 <p> Esport </p>
                 <div class="daftar-button button-atas">
-                    <a href="<?php echo site_url('profile/index').'?tab=e_paper'; ?>" class="btn btn-arrow">
+                    <a href="<?php echo site_url('profile/index').'?tab=e_esport'; ?>" class="btn btn-arrow">
                         <span>
                             Daftar Sekarang
                             <svg>
@@ -204,7 +204,7 @@
                         </div>
 
                         <div class="daftar-button">
-                            <a href="<?php echo site_url('profile/index').'?tab=e_paper'; ?>" class="btn btn-arrow">
+                            <a href="<?php echo site_url('profile/index').'?tab=e_esport'; ?>" class="btn btn-arrow">
                                 <span>
                                     Daftar Sekarang
                                     <svg>
@@ -223,7 +223,7 @@
             <div class="page page-1">
                 <p> Poster Digital </p>
                 <div class="daftar-button button-atas">
-                    <a href="<?php echo site_url('profile/index').'?tab=e_paper'; ?>" class="btn btn-arrow">
+                    <a href="<?php echo site_url('profile/index').'?tab=e_poster'; ?>" class="btn btn-arrow">
                         <span>
                             Daftar Sekarang
                             <svg>
@@ -267,7 +267,7 @@
                         </div>
 
                         <div class="daftar-button">
-                            <a href="<?php echo site_url('profile/index').'?tab=e_paper'; ?>" class="btn btn-arrow">
+                            <a href="<?php echo site_url('profile/index').'?tab=e_poster'; ?>" class="btn btn-arrow">
                                 <span>
                                     Daftar Sekarang
                                     <svg>
