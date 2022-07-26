@@ -57,6 +57,17 @@ class Profile_events_model extends CI_Model {
             return TRUE;
         }
         return FALSE;
+    } 
+
+    public function uiux_verify_team($user_id, $team_name) {
+        $identity = $this->uiux_get($user_id, 'team_name');
+        if (isset($identity)) {
+            if ($team_name !== $identity['team_name']) {
+                return $this->db->select('user_id')->from('uiux_data')->where('user_id !=', $user_id)->where('team_name', $team_name)->get()->row_array(0) === NULL;
+            }
+            return TRUE;
+        }
+        return FALSE;
     }
 
     public function music_add($identity) {

@@ -79,8 +79,8 @@ class Profile extends CI_Controller {
                     $locked = !empty($event['locked']);
 
                     $idcard_url = NULL;
-                    if ($this->storage->exists('idcard/esport/'.$_SESSION['user_id'])) {
-                        $idcard_url = site_url('profile/esport_idcard');
+                    if ($this->storage->exists('idcard/uiux/'.$_SESSION['user_id'])) {
+                        $idcard_url = site_url('profile/uiux_idcard');
                     } 
 
                     $page = 'profile/index/setup_uiux';
@@ -487,6 +487,73 @@ class Profile extends CI_Controller {
         return $this->pingfest->view_battle_idcard($_SESSION['user_id']);
     }
 
+
+
+    public function setup_uiux() {
+        $this->check_login();
+
+        $site = site_url('profile/index').'?tab=e_uiux';
+
+        $identity = $this->events->uiux_get($_SESSION['user_id']);
+        if (!isset($identity)) {
+            redirect($site);
+        }
+
+        $locked = !empty($this->events->get('uiux', 'locked')['locked']);
+
+        if (!empty($this->input->post('submit'))) {
+            if (!$locked) {
+                $this->load->library('form_validation');
+
+                $identity = [];
+                $identity['team_name'] = $this->input->post('team_name');
+                $identity['institution'] = $this->input->post('institution');
+                $identity['leader'] = $this->input->post('leader');
+                $identity['phone'] = $this->input->post('phone');
+                $identity['email'] = $this->input->post('email');
+                $identity['members'] = $this->input->post('members');
+
+                 if (!isset($identity['members'])) {
+                    $identity['members'] = [];
+                }
+
+                $this->form_validation->set_rules('team_name', 'Nama Tim', 'required|max_length[100]');
+                $this->form_validation->set_rules('institution', 'Asal Institusi', 'required|max_length[100]');
+                $this->form_validation->set_rules('leader', 'Nama Ketua', 'required|max_length[100]');
+                $this->form_validation->set_rules('phone', 'No. Telp. Ketua', 'required|max_length[20]');
+                $this->form_validation->set_rules('email', 'Email Ketua', 'required|max_length[100]'); 
+
+                if ($this->form_validation->run()) {
+                    if ($this->events->uiux_verify_team($_SESSION['user_id'], $identity['team_name'])) {
+                        if ($this->events->uiux_set($_SESSION['user_id'], $identity)) {
+                            $upload_status = $this->upload_uiux_idcard();
+
+                            $_SESSION['profile_status'] = 'SUCCESS: Berhasil memperbarui identitas'.(!$upload_status ? ' namun gagal mengunggah file kartu tanda pelajar' : '').'. Terima kasih telah mendaftar pada event kami';
+                        } else {
+                            $_SESSION['profile_status'] = 'ERROR: Gagal memperbarui identitas. Silakan coba lagi. Kontak CP apabila masalah masih berlanjut';
+                        }
+                    } else {
+                        $_SESSION['profile_status'] = 'ERROR: Tidak dapat menggunakan nama tim tersebut';
+                    }
+                } else {
+                    $_SESSION['profile_status'] = 'ERROR: '.implode(' ', $this->form_validation->error_array());
+                }
+
+                $_SESSION['profile_uiux_identity'] = $identity;
+            } else {
+                $_SESSION['profile_status'] = 'ERROR: Pengisian data sudah dikunci. Anda tidak dapat merubah identitas anda lagi';
+            }
+        }
+
+        redirect($site);
+    }
+
+    public function uiux_idcard() {
+        $this->check_login();
+
+        return $this->pingfest->view_uiux_idcard($_SESSION['user_id']);
+    }
+
     public function setup_paper() {
         $this->check_login();
 
@@ -700,6 +767,11 @@ class Profile extends CI_Controller {
 
     private function upload_battle_idcard() {
         return $this->upload_form_file('idcard/battle/'.$_SESSION['user_id'], 'idcard', 'application/pdf', 15728640);
+    }
+
+
+    private function upload_uiux_idcard() {
+        return $this->upload_form_file('idcard/uiux/'.$_SESSION['user_id'], 'idcard', 'application/pdf', 15728640);
     }
 
     private function upload_paper_idcard() {
