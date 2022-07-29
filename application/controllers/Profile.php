@@ -1,4 +1,5 @@
 <?php
+ob_start();
 defined('BASEPATH') OR exit;
 
 class Profile extends CI_Controller {

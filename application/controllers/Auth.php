@@ -1,4 +1,5 @@
 <?php 
+ob_start();
 defined('BASEPATH') OR exit('No direct script access allowed');
 
 
@@ -255,7 +256,5 @@ class Auth extends CI_Controller
         }
         redirect(site_url('auth/index'));
     }
-}
-
-?>
+} 
 

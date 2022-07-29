@@ -1,4 +1,5 @@
 <?php
+ob_start();
 defined('BASEPATH') OR exit;
 
 class Sponsors extends CI_Controller {
