@@ -14,7 +14,7 @@
       <div class="ticket--center--col">
         <span class="ticket--info--title">Tanggal dan Waktu</span>
         <span class="ticket--info--subtitle">Senin, 12 November 2022</span>
-        <span class="ticket--info--content">7:00 am Sampai 9:00 pm</span>
+        <span class="ticket--info--content">18.00 WIB - Selesai</span>
       </div>
       <div class="ticket--center--col">
         <span class="ticket--info--title">Lokasi</span>
