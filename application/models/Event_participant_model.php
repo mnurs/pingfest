@@ -82,6 +82,11 @@ class Event_participant_model extends CI_Model
         return $query->result();
     }
 
+     public function getByIdAndEvent($user_id ,$event_id ){
+        return $this->db->get_where($this->_table, ["user_id " => $user_id,"event_id " => $event_id])->row();
+    }   
+
+
      public function updatePayment()
     {
         $post = $this->input->post();

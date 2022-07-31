@@ -25,6 +25,7 @@
                 </div>
                 <div class="form-group">
                     <button <?php echo $locked ? 'disabled' : '' ?> type="submit" class="btn btn-success" name="submit" value="1"><span class="fa fa-sync mr-2"></span> Update</button>
+                    <a href="<?php echo site_url('semnas/tiket'); ?>" target="_blank" class="btn btn-primary"><span class="fa fa-eye mr-2"></span> Lihat Tiket</a>
                 </div>
             </form>
         </div>
