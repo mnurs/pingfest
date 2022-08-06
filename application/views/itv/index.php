@@ -51,7 +51,7 @@
                     </div>
                     <div class="deskripsi-text-line"> <i class="symbol fas fa-user-friends"></i><span>3 orang<span>
                     </div>
-                    <div class="deskripsi-text-line"> <i class="symbol fa fa-dollar-sign"></i><span>FREE!<span>
+                    <div class="deskripsi-text-line"> <i class="symbol fa fa-dollar-sign"></i><span>Rp. 60,000<span>
                     </div>
                     <h4>Hadiah</h4>
                     <hr>
@@ -63,12 +63,38 @@
                     </div>
                     <h4>Timeline</h4>
                     <hr>
-                    <div class="deskripsi-text-line timeline"> <b class="justify">Pendaftaran</b><span class="right">7
-                            Agustus 2021 <span> </div>
-                    <div class="deskripsi-text-line timeline"> <b class="justify">Penyisihan</b></i><span
-                            class="right">9 Oktober 2021<span> </div>
-                    <div class="deskripsi-text-line timeline"> <b class="justify">Final</b></i><span class="right">16
-                            Oktober 2021<span> </div>
+                    <div class="deskripsi-text-line timeline"> 
+                        <b class="justify">Pendaftaran</b>
+                        <span class="right">29 Agustus 2022<span> 
+                    </div>
+                    <div class="deskripsi-text-line timeline"> 
+                        <b class="justify">Maksimal Pendaftaran</b>
+                        <span class="right">1 Oktober 2022<span> 
+                    </div>
+                    <div class="deskripsi-text-line timeline"> 
+                        <b class="justify">Technical Meeting</b>
+                        <span class="right">20 Oktober 2022<span> 
+                    </div>
+                    <div class="deskripsi-text-line timeline"> 
+                        <b class="justify">Penyisihan</b> 
+                        <span class="right">22 Oktober 2022<span> 
+                    </div>
+                    <div class="deskripsi-text-line timeline"> 
+                        <b class="justify">Pengumuman Babak 1</b> 
+                        <span class="right">24 Oktober 2022<span> 
+                    </div>
+                    <div class="deskripsi-text-line timeline"> 
+                        <b class="justify">Technical Meeting Final</b>
+                        <span class="right">27 Oktober 2022<span> 
+                    </div>
+                    <div class="deskripsi-text-line timeline"> 
+                        <b class="justify">Final</b></i>
+                        <span class="right">29 Oktober 2022<span> 
+                    </div>
+                    <div class="deskripsi-text-line timeline"> 
+                        <b class="justify">Pengumuman</b></i>
+                        <span class="right">12 November 2022<span> 
+                    </div>
                     <div class="button-bawah-wrapper">
                         <div class="guide-book-button">
                             <a href="http://tiny.cc/GuidebookITV_BOT" target="_blank" class="btn btn-arrow">
@@ -125,12 +151,30 @@
                     <div class="deskripsi-text-line"> <b class="symbol">#3</b><span>Rp 750.000<span> </div>
                     <h4>Timeline</h4>
                     <hr>
-                    <div class="deskripsi-text-line timeline"> <b class="justify">Pendaftaran</b><span class="right">7
-                            Agustus 2021 <span> </div>
-                    <div class="deskripsi-text-line timeline"> <b class="justify">Maksimal Pengumpulan</b></i><span
-                            class="right">4 Oktober 2021<span> </div>
-                    <div class="deskripsi-text-line timeline"> <b class="justify">Pengumuman Juara</b></i><span
-                            class="right">24 Oktober 2021<span> </div>
+                    <div class="deskripsi-text-line timeline"> 
+                        <b class="justify">Pendaftaran dan Pengumpulan Karya</b>
+                        <span class="right">29 Agustus 2022 <span> 
+                    </div>
+                    <div class="deskripsi-text-line timeline"> 
+                        <b class="justify">Maksimal Pendaftaran  dan Pengumpulan Karya</b>
+                        <span class="right">1 Oktober 2022<span> 
+                    </div>
+                    <div class="deskripsi-text-line timeline"> 
+                        <b class="justify">Pengumuman Penyisihan</b>
+                        <span class="right">8 Oktober 2022<span> 
+                    </div>
+                    <div class="deskripsi-text-line timeline"> 
+                        <b class="justify">Konfirmasi Ulang Finalis</b>
+                        <span class="right">8-14 Oktober 2022<span> 
+                    </div>
+                    <div class="deskripsi-text-line timeline"> 
+                        <b class="justify">Technical Meeting Final</b>
+                        <span class="right">15 Oktober 2022<span> 
+                    </div>
+                    <div class="deskripsi-text-line timeline"> 
+                        <b class="justify">Final</b>
+                        <span class="right">22 Oktober 2022<span> 
+                    </div> 
                     <div class="button-bawah-wrapper">
                         <div class="guide-book-button">
                             <a href="http://tiny.cc/GuidebookITV_IT-Music" target="_blank" class="btn btn-arrow">
@@ -178,7 +222,7 @@
                     </div>
                     <div class="deskripsi-text-line"> <i class="symbol fas fa-user-friends"></i><span>1-3 orang<span>
                     </div>
-                    <div class="deskripsi-text-line"> <i class="symbol fa fa-dollar-sign"></i><span>FREE!<span>
+                    <div class="deskripsi-text-line"> <i class="symbol fa fa-dollar-sign"></i><span>Rp 75.000<span>
                     </div>
                     <h4>Hadiah</h4>
                     <hr>
@@ -190,12 +234,34 @@
                     </div>
                     <h4>Timeline</h4>
                     <hr>
-                    <div class="deskripsi-text-line timeline"> <b class="justify">Pendaftaran</b><span class="right">7
-                            Agustus 2021 <span> </div>
-                    <div class="deskripsi-text-line timeline"> <b class="justify">Maksimal Pengumpulan</b></i><span
-                            class="right">4 Oktober 2021<span> </div>
-                    <div class="deskripsi-text-line timeline"> <b class="justify">Final</b></i><span class="right">16
-                            Oktober 2021<span> </div>
+                    <div class="deskripsi-text-line timeline"> 
+                        <b class="justify">Pendaftaran</b>
+                        <span class="right">29 Agustus 2022 <span> 
+                    </div>
+                    <div class="deskripsi-text-line timeline"> 
+                        <b class="justify">Maksimal Pendaftaran</b>
+                        <span class="right">1 Oktober 2022<span> 
+                    </div>
+                    <div class="deskripsi-text-line timeline"> 
+                        <b class="justify">Technical Meeting</b>
+                        <span class="right">20 Oktober 2022<span> 
+                    </div>
+                    <div class="deskripsi-text-line timeline"> 
+                        <b class="justify">Penyisihan</b>
+                        <span class="right">21-23 Oktober 2022<span> 
+                    </div>
+                    <div class="deskripsi-text-line timeline"> 
+                        <b class="justify">Semifinal</b>
+                        <span class="right">28 Oktober 2022<span> 
+                    </div>
+                    <div class="deskripsi-text-line timeline"> 
+                        <b class="justify">Final</b>
+                        <span class="right">30 Oktober 2022<span> 
+                    </div>
+                    <div class="deskripsi-text-line timeline"> 
+                        <b class="justify">Pengumuman Juara</b>
+                        <span class="right">12 November 2022<span> 
+                    </div>
                     <div class="button-bawah-wrapper">
                         <div class="guide-book-button">
                             <a href="http://tiny.cc/GuidebookITV_IT-Paper" target="_blank" class="btn btn-arrow">
@@ -253,12 +319,18 @@
                     <div class="deskripsi-text-line"> <b class="symbol">#3</b><span>Rp 500.000 + Sertifikat<span> </div>
                     <h4>Timeline</h4>
                     <hr>
-                    <div class="deskripsi-text-line timeline"> <b class="justify">Pendaftaran</b><span class="right">7
-                            Agustus 2021 <span> </div>
-                    <div class="deskripsi-text-line timeline"> <b class="justify">Maksimal Pengumpulan</b></i><span
-                            class="right">4 Oktober 2021<span> </div>
-                    <div class="deskripsi-text-line timeline"> <b class="justify">Final</b></i><span class="right">16
-                            Oktober 2021<span> </div>
+                    <div class="deskripsi-text-line timeline"> 
+                        <b class="justify">Pendaftaran, Pengumpulan, Posting Karya</b>
+                        <span class="right">19 September 2022<span> 
+                    </div>
+                    <div class="deskripsi-text-line timeline"> 
+                        <b class="justify">Batas Pendaftaran, Pengumpulan, Posting Karya</b>
+                        <span class="right">17 Oktober 2022<span> 
+                    </div>
+                    <div class="deskripsi-text-line timeline"> 
+                        <b class="justify">Pengumuman Juara</b>
+                        <span class="right">12 November 2021<span> 
+                    </div> 
                     <div class="button-bawah-wrapper">
                         <div class="guide-book-button">
                             <a href="http://tiny.cc/GuidebookITV_IT-Paper" target="_blank" class="btn btn-arrow">
