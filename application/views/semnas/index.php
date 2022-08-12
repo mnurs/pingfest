@@ -20,7 +20,7 @@
     <div class="container-sem">
         <div class="deskripsi-sem">
             <div class="deskripsi-main">
-                <h2>Apa itu FYI?</h2>
+                <h2>Apa itu Wonderful of IT?</h2>
                 <p>Wonderful of IT merupakan acara puncak dari P!NGFEST yang dikemas dalam bentuk webinar.</p>
                 <p> Wonderful of IT bertujuan untuk meingkatkan percaya diri pendengar untuk menemukan ide dan
                     mengeluarkan
@@ -50,10 +50,7 @@
                 </div>
             </div>
         </div>
-        <div class="logo-sem">
-            <img src="<?php echo base_url('public/pingfest/img/logosemnas.svg'); ?>" />
-
-        </div>
+        <img  class="logo-sem" src="<?php echo base_url('public/pingfest/img/logosemnas.png'); ?>" />
         <div class="informasi-sem">
             <h1 class="title">Rincian Acara</h1>
             <div class="box-wrapper">
@@ -165,11 +162,9 @@
                         <a class="sponsor-logo sponsor-small" href="https://www.instagram.com/whoknowswhat.id/"
                             target="_blank"><img class="sponsor-image"
                                 src="<?php echo base_url('public/pingfest/img/sponsor/wkw.png'); ?>" alt=""></a>
-                    </div>
-
-                </div>
-
-            </div>
+                    </div> 
+                </div> 
+            </div> 
         </div>
 
     </div>

@@ -248,11 +248,11 @@
                     </div>
                     <div class="deskripsi-text-line timeline"> 
                         <b class="justify">Penyisihan</b>
-                        <span class="right">21-23 Oktober 2022<span> 
+                        <span class="right">22-23 Oktober 2022<span> 
                     </div>
                     <div class="deskripsi-text-line timeline"> 
                         <b class="justify">Semifinal</b>
-                        <span class="right">28 Oktober 2022<span> 
+                        <span class="right">29 Oktober 2022<span> 
                     </div>
                     <div class="deskripsi-text-line timeline"> 
                         <b class="justify">Final</b>
@@ -399,8 +399,7 @@
                 </div>
 
             </div>
-        </div>
+        </div> 
     </div>
-
 
     <script src="<?php echo base_url('public/pingfest/js/itv.min.js'); ?>"></script>

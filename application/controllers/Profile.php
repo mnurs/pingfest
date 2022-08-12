@@ -212,10 +212,12 @@ class Profile extends CI_Controller {
             }
 
             $bank_account = $this->cfg->get('bank_account');
+            $bank_account_semnas = $this->cfg->get('bank_account_semnas');
             $bank_account = !empty($bank_account) ? $bank_account : '-';
+            $bank_account_semnas = !empty($bank_account_semnas) ? $bank_account_semnas : '-';
 
             $page = 'profile/index/registration';
-            $data = ['events' => $events, 'registration' => $registration, 'bank_account' => $bank_account];
+            $data = ['events' => $events, 'registration' => $registration, 'bank_account' => $bank_account, 'bank_account_semnas' => $bank_account_semnas];
         }
 
         $this->load->view('templates/header', ['title' => 'Your Profile']);

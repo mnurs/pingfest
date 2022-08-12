@@ -130,10 +130,11 @@
     </div>
 
     <div class="item logo-semnas ">
-        <video class="logo-acara" autoplay muted loop>
+      <!--  <video class="logo-acara" autoplay muted loop>
             <source src="<?php echo base_url('public/pingfest/video/fyi.webm'); ?>" type="video/webm">
             Your browser does not support the video tag.
-        </video>
+        </video>   -->
+        <img class="logo-acara" src="<?php echo base_url('public/pingfest/img/logosemnas.png'); ?>" />
     </div>
 
     <div class="item dokumentasi green-end">

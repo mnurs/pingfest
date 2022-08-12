@@ -51,7 +51,11 @@
                                                     <a class="text-danger" href="<?php echo site_url('profile/reset').'?event='.urlencode($event['event_id']); ?>" onclick="return confirm('Apakah anda yakin?')"><span class="fa fa-trash"></span> Hapus Tagihan</a>
                                                 <?php endif; ?>
                                             </li>
-                                            <li class="list-group-item"><b>Rekening Tujuan:</b> <?php echo $bank_account; ?></li>
+                                            <?php if ($event['event_id'] == "semnas"): ?>
+                                                <li class="list-group-item"><b>Rekening Tujuan:</b> <?php echo $bank_account_semnas; ?></li>
+                                            <?php else: ?>
+                                                <li class="list-group-item"><b>Rekening Tujuan:</b> <?php echo $bank_account; ?></li>
+                                            <?php endif; ?>
                                             <li class="list-group-item"><b>Nominal Pembayaran:</b> <?php echo rupiah($registration[$event['event_id']]['total']); ?></li>
                                             <li class="list-group-item"><b>Deadline Transfer:</b> <span class="inv-expired"><?php echo $registration[$event['event_id']]['expired']; ?></span></li>
                                             <li class="list-group-item">Anda memiliki waktu <b class="inv-timeleft" data-timeleft="<?php echo max(0, $registration[$event['event_id']]['expired'] - time()); ?>"></b> tersisa untuk melakukan pembayaran. Tagihan akan kadaluarsa ketika sudah melewati batas dan anda dapat melakukan pemesanan lagi</li>
