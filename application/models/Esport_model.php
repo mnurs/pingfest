@@ -12,6 +12,7 @@ class Esport_model extends CI_Model
     public $account_nickname; 
     public $account_id; 
     public $phone; 
+    public $email; 
     public $institution; 
 
     public function rules()
@@ -51,6 +52,7 @@ class Esport_model extends CI_Model
         $this->account_nickname = $post["account_nickname"]; 
         $this->account_id = $post["account_id"]; 
         $this->phone = $post["phone"]; 
+        $this->emal = $post["emal"]; 
         $this->institution = $post["institution"]; 
         return $this->db->insert($this->_table, $this);
     }
@@ -65,6 +67,7 @@ class Esport_model extends CI_Model
         $this->account_nickname = $post["account_nickname"]; 
         $this->account_id = $post["account_id"]; 
         $this->phone = $post["phone"]; 
+        $this->email = $post["email"]; 
         $this->institution = $post["institution"]; 
         return $this->db->update($this->_table, $this, array('user_id' => $post['user_id']));
     }

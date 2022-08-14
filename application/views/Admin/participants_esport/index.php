@@ -35,7 +35,8 @@
                       <th>Username</th>
                       <th>Nama Ketua</th>
                       <th>Phone</th> 
-                      <th>Nama Tim</th>
+                      <th>Nama Tim</th>>
+                      <th>Email</th> 
                       <th>Daftar anggota</th> 
                       <th>Nickname</th> 
                       <th>ID Account</th> 
@@ -58,6 +59,14 @@
                       <td>
                         <?php echo $esport->team_name ?>
                       </td>
+                      <td class="small">
+                        <ul>
+                          <?php $data = json_decode($esport->email, TRUE)['data'] ?> 
+                          <?php for ($i=0;$i<count($data);$i++): ?>
+                          <li><?php echo $data[$i]; ?></li> 
+                          <?php endfor; ?>
+                        </ul> 
+                      </td>   
                       <td class="small">
                         <ul>
                           <?php $data = json_decode($esport->member, TRUE)['data'] ?> 

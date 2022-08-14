@@ -362,6 +362,7 @@ class Profile extends CI_Controller {
                     $identity['member'] = [];
                     $identity['account_nickname'] = []; 
                     $identity['account_id'] = []; 
+                    $identity['email'] = []; 
                     if ($this->events->esport_add($identity)) {
                         $_SESSION['profile_status'] = 'SUCCESS: Berhasil membuat identitas. Silakan lengkapi identitas keikutsertaan anda sebelum terkunci';
                     } else {
@@ -582,6 +583,7 @@ class Profile extends CI_Controller {
                 $identity['account_id'] = $this->input->post('account_id');
                 $identity['phone'] = $this->input->post('phone'); 
                 $identity['institution'] = $this->input->post('institution');
+                $identity['email'] = $this->input->post('email');
 
                 if (!isset($identity['member'])) {
                     $identity['member'] = [];
@@ -593,6 +595,10 @@ class Profile extends CI_Controller {
 
                 if (!isset($identity['account_id'])) {
                     $identity['account_id'] = [];
+                }
+
+                if (!isset($identity['email'])) {
+                    $identity['email'] = [];
                 }
 
                 $this->form_validation->set_rules('team_name', 'Nama Tim', 'required|max_length[100]');

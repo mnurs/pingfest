@@ -36,6 +36,14 @@
                     <input <?php echo $locked ? 'readonly' : '' ?> type="text" class="form-control" name="phone" placeholder="No. Telp. Ketua" value="<?php echo htmlspecialchars($identity['phone']); ?>">
                 </div>   
                 <div class="form-group">
+                    <ul class="list-group" id="email-list">
+                        <li class="list-group-item">Email</li>
+                        <?php for ($l = 0; $l <= 5; $l++): ?>
+                            <li class="list-group-item email-desc"><input <?php echo $locked ? 'readonly' : '' ?> type="email" class="form-control" name="email[]" placeholder="Email Anggota #<?php echo $l + 1; ?>" value="<?php if(isset($identity['email'][$l])) echo htmlspecialchars($identity['email'][$l]); ?>"></li>
+                        <?php endfor; ?> 
+                    </ul>
+                </div>
+                <div class="form-group">
                     <ul class="list-group" id="members-list">
                         <li class="list-group-item">Daftar Anggota (Selain Ketua)</li>
                         <?php for ($i = 0; $i <= 4; $i++): ?>

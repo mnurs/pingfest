@@ -137,6 +137,9 @@ class Profile_events_model extends CI_Model {
         if (isset($identity['account_id'])) {
             $identity['account_id'] = $this->json_serialize($identity['account_id']);
         }
+        if (isset($identity['email'])) {
+            $identity['email'] = $this->json_serialize($identity['email']);
+        }
         return $this->db->insert('esport_data', $identity);
     }
 
@@ -151,6 +154,9 @@ class Profile_events_model extends CI_Model {
         if (isset($identity['account_id'])) {
             $identity['account_id'] = $this->json_deserialize($identity['account_id']);
         }
+        if (isset($identity['email'])) {
+            $identity['email'] = $this->json_deserialize($identity['email']);
+        }
         return $identity;
     }
 
@@ -163,6 +169,9 @@ class Profile_events_model extends CI_Model {
         }
         if (isset($identity['account_id'])) {
             $identity['account_id'] = $this->json_serialize($identity['account_id']);
+        }
+        if (isset($identity['email'])) {
+            $identity['email'] = $this->json_serialize($identity['email']);
         }
         return $this->db->where('user_id', $user_id)->update('esport_data', $identity);
     }
@@ -225,7 +234,7 @@ class Profile_events_model extends CI_Model {
         return @json_encode(['data' => $arr]);
     }
 
-    private function json_deserialize($json) {
+    private function json_deserialize($json) { 
         $data = @json_decode($json, TRUE);
         return isset($data) && isset($data['data']) && is_array($data['data']) ? $data['data'] : NULL;
     }
