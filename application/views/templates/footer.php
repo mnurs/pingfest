@@ -137,7 +137,7 @@
                 <h4>Hubungi Kami</h4>
                 <div class="hubungi-wrapper">
                     <i class="fa fa-map-marker"></i>
-                    <p>Gedung A FMIPA UNS, Surakarta, Jawa Tengah 57126 </p>
+                    <p>Gedung B FMIPA UNS, Surakarta, Jawa Tengah 57126 </p>
 
                     <i class="fa fa-phone"></i>
                     <p> <a href="http://wa.me/6285697128373" target="_blank">(+62) 856 9712 8373</a> (mahen) <br> <a

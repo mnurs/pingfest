@@ -21,13 +21,33 @@
     <div class="item headline ">
         <h1>Ayo ikuti pekan teknologi</h1>
         <h1>P!NGFEST 2022</h1>
-        <div class="riseit-container">
-            <div style="--i:1" class="hay-text">R</div>
-            <div style="--i:2" class="hay-text">i</div>
-            <div style="--i:3" class="hay-text">s</div>
-            <div style="--i:4" class="hay-text">e&nbsp;</div>
-            <div style="--i:5" class="hay-text">I</div>
-            <div style="--i:6" class="hay-text">T</div>
+        <div class="riseit-container"> 
+            <div style="--i:1" class="hay-text">S</div>
+            <div style="--i:2" class="hay-text">o</div>
+            <div style="--i:3" class="hay-text">c</div>
+            <div style="--i:4" class="hay-text">i</div>
+            <div style="--i:5" class="hay-text">e</div>
+            <div style="--i:6" class="hay-text">t</div>
+            <div style="--i:7" class="hay-text">y&nbsp;</div>
+            <div style="--i:8" class="hay-text">5</div>
+            <div style="--i:9" class="hay-text">.</div>
+            <div style="--i:10" class="hay-text">0&nbsp;</div>
+            <div style="--i:11" class="hay-text">i</div>
+            <div style="--i:12" class="hay-text">n&nbsp;</div>
+            <div style="--i:13" class="hay-text">F</div>
+            <div style="--i:14" class="hay-text">u</div>
+            <div style="--i:15" class="hay-text">t</div>
+            <div style="--i:16" class="hay-text">u</div>
+            <div style="--i:17" class="hay-text">r</div>
+            <div style="--i:18" class="hay-text">i</div>
+            <div style="--i:19" class="hay-text">s</div>
+            <div style="--i:20" class="hay-text">t</div>
+            <div style="--i:21" class="hay-text">i</div>
+            <div style="--i:22" class="hay-text">c&nbsp;</div>
+            <div style="--i:23" class="hay-text">C</div>
+            <div style="--i:24" class="hay-text">i</div>
+            <div style="--i:25" class="hay-text">t</div>
+            <div style="--i:26" class="hay-text">y</div>
         </div>
         
         <iframe max-width: 100%; height: auto; src="https://www.youtube.com/embed/DdwhRt8nsgI?controls=0&rel=0"
@@ -110,8 +130,8 @@
                     <div class="title">Seminar Nasional</div>
                     <div class="description">
                         Seminar Nasional merupakan salah satu rangkaian acara P!NGFEST yang diadakan setiap tahun dengan
-                        mengundang pembicara ternama. Pada tahun ini, Seminar Nasional mengusung tema Wonderful of IT.
-                        Penyelenggaraaan Wonderful of IT berencana meraih pasar peserta yang kekinian dengan era digital.
+                        mengundang pembicara ternama. Pada tahun ini, Seminar Nasional mengusung tema Wonderland of IT.
+                        Penyelenggaraaan Wonderland of IT berencana meraih pasar peserta yang kekinian dengan era digital.
                     </div>
                     <div class="text-button">
                         <a href="<?php echo site_url('semnas'); ?>" class="btn btn-arrow">
@@ -150,7 +170,7 @@
     </div>
     <div class="item sponsor">
         <p>Our Sponsors</p>
-        <div class="sponsor-container">
+        <!-- <div class="sponsor-container">
             <div class="big-wrapper">
                 <a class="sponsor-logo sponsor-big" href="https://barito.tech/" target="_blank"><img
                         class="sponsor-image" src="<?php echo base_url('public/pingfest/img/sponsor/bit.png'); ?>"
@@ -179,7 +199,7 @@
                 </div>
 
             </div>
-        </div>
+        </div> -->
         <div class="sponsor-button">
             <a href="<?php echo site_url('sponsors/join'); ?>" class="btn btn-arrow">
                 <span>

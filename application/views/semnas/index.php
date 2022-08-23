@@ -7,22 +7,22 @@
     <div class="item-headline">
         <h1 class="auto-scroll">Webinar Nasional</h1>
         <div class="idea-container">
-            <div class="hay-text idea">Wonderful</div>
+            <div class="hay-text idea">Wonderland</div>
             &#160;
             <div class="hay-text idea">of</div>
             &#160;
             <div class="hay-text idea">IT</div>
         </div>
-        <h1>Powered By Upscale & Bit</h1>
+        <!-- <h1>Powered By Upscale & Bit</h1> -->
     </div>
 </div>
 <div class="container-wrapper">
     <div class="container-sem">
         <div class="deskripsi-sem">
             <div class="deskripsi-main">
-                <h2>Apa itu Wonderful of IT?</h2>
-                <p>Wonderful of IT merupakan acara puncak dari P!NGFEST yang dikemas dalam bentuk webinar.</p>
-                <p> Wonderful of IT bertujuan untuk meingkatkan percaya diri pendengar untuk menemukan ide dan
+                <h2>Apa itu Wonderland of IT?</h2>
+                <p>Wonderland of IT merupakan acara puncak dari P!NGFEST yang dikemas dalam bentuk webinar.</p>
+                <p> Wonderland of IT bertujuan untuk meingkatkan percaya diri pendengar untuk menemukan ide dan
                     mengeluarkan
                     karya
                     yang dimiliki yang nantinya akan berguna untuk diri sendiri dan orang lain.</p>
@@ -63,7 +63,7 @@
                         <h4>Waktu</h4>
                         <div class="text-box-wrapper">
                             <p>12 November 2022</p>
-                            <p>18.00 WIB - Selesai</p>
+                            <p>12.00 WIB - Selesai</p>
                         </div>
                     </div>
                     <div class="box-semnas">
@@ -84,15 +84,12 @@
                                 d="M248.971 112.971 143.03 7.03A24 24 0 0 0 126.059 0H24C10.745 0 0 10.745 0 24V126.059A24 24 0 0 0 7.03 143.029L112.971 248.971C122.343 258.343 137.539 258.344 146.912 248.971L248.971 146.912C258.343 137.539 258.343 122.343 248.971 112.97ZM237.657 135.598 135.598 237.657C132.477 240.779 127.411 240.784 124.285 237.657L18.343 131.716A7.948 7.948 0 0 1 16 126.059V24C16 19.589 19.589 16 24 16H126.059C128.196 16 130.205 16.832 131.716 18.343L237.657 124.284C240.776 127.404 240.776 132.479 237.657 135.598ZM72 62C77.514 62 82 66.486 82 72S77.514 82 72 82 62 77.514 62 72 66.486 62 72 62M72 48C58.745 48 48 58.745 48 72S58.745 96 72 96 96 85.255 96 72 85.255 48 72 48Z" />
                         </svg>
                         <h4>Harga</h4>
-                        <div class="text-box-wrapper">
-
-                            <p>Presale 1   : <b>Rp65.000</b></p>
-                            <p>Presale 2   : <b>Rp70.000</b></p>
-                            <p>OTS         : <b>Rp80.000</b></p>
-                            
-
-
+                        <div class="text-box-wrapper"> 
+                            <p><b>Rp65.000</b></p>    
+                            <p><b>Batas </b></p>
+                            <p><b>1 - 8 Oktober 2022</b></p>  
                         </div>
+                        
                     </div>
                     <div class="box-semnas">
                         <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 256 256">
@@ -101,11 +98,11 @@
                         </svg>
                         <h4>Narahubung</h4>
                         <div class="text-box-wrapper">
-                            <a href="http://wa.me/6281239930252" target="_blank">
-                                <p>(+62) 812 3993 0252 (sabil)</p>
+                            <a href="http://wa.me/6288975594710" target="_blank">
+                                <p>(+62) 889 7559 4710 (adeline)</p>
                             </a>
-                            <a href="http://wa.me/6282139893021" target="_blank">
-                                <p>(+62) 821 3989 3021 (lia)</p>
+                            <a href="http://wa.me/6285697128373" target="_blank">
+                                <p>(+62) 856 9712 8373 (mahen)</p>
                             </a>
                         </div>
                     </div>
@@ -118,24 +115,24 @@
             <div class="pembicara-wrapper">
                 <div class="pembicara">
                     <a href="https://www.youtube.com/c/WebProgrammingUNPAS" target="_blank">
-                        <img src="<?php echo base_url('public/pingfest/img/sandhika.png'); ?>" alt="sandhika">
+                        <img src="<?php echo base_url('public/pingfest/img/pembicara.png'); ?>" alt="sandhika">
                     </a>
-                    <h2>Sandhika Galih</h2>
-                    <p>Content Creator</p>
-                    <p>Online Instructor</p>
+                    <h2>???????</</h2>
+                    <p>???????</</p>
+                    <p>???????</</p>
                 </div>
                 <div class="pembicara">
                     <a href="https://www.youtube.com/c/KevinAnggara" target="_blank">
-                        <img src="<?php echo base_url('public/pingfest/img/kevin.png'); ?>" alt="kevin">
+                        <img src="<?php echo base_url('public/pingfest/img/pembicara.png'); ?>" alt="kevin">
                     </a>
-                    <h2>Kevin Anggara</h2>
-                    <p>Penulis - Blogger</p>
-                    <p>Content Creator</p>
+                    <h2>???????</h2>
+                    <p>???????</</p>
+                    <p>???????</</p>
                 </div>
             </div>
         </div>
         <div class="item sponsor">
-            <p>Our Sponsors</p>
+            <!-- <p>Our Sponsors</p>
             <div class="sponsor-container">
                 <div class="big-wrapper">
                     <a class="sponsor-logo sponsor-big" href="https://barito.tech/" target="_blank"><img
@@ -164,7 +161,7 @@
                                 src="<?php echo base_url('public/pingfest/img/sponsor/wkw.png'); ?>" alt=""></a>
                     </div> 
                 </div> 
-            </div> 
+            </div>  -->
         </div>
 
     </div>

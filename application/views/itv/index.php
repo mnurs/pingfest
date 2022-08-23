@@ -14,14 +14,14 @@
     <div class="item-headline">
         <h1>Uji Kemampuanmu di</h1>
         <h1 class="auto-scroll">IT-Venture XV</h1>
-        <div class="riseit-container">
+        <!-- <div class="riseit-container">
             <div style="--i:1" class="hay-text">R</div>
             <div style="--i:2" class="hay-text">i</div>
             <div style="--i:3" class="hay-text">s</div>
             <div style="--i:4" class="hay-text">e&nbsp;</div>
             <div style="--i:5" class="hay-text">I</div>
             <div style="--i:6" class="hay-text">T</div>
-        </div>
+        </div> -->
     </div>
 </div>
 <div class=container-itv>
@@ -41,7 +41,7 @@
                 </div>
             </div>
             <div class="page page-2">
-                <div class="scroll-text"><span>SCROLL AKU UNTUK SELENGKAPNYA</span></div>
+                <div class="scroll-text"><span>SCROLL UNTUK SELENGKAPNYA</span></div>
                 <div class="deskripsi-wrapper">
                     <p class="deskripsi-lomba">Uji kemampuan kamu mengenai <span>Ilmu Komputer dan Programming</span>
                         dengan mengikuti Battle Of Technology (BOT).</p>
@@ -49,17 +49,17 @@
                     <hr>
                     <div class="deskripsi-text-line"> <i class="symbol fas fa-user"></i><span>SMA/SMK/Sederajat<span>
                     </div>
-                    <div class="deskripsi-text-line"> <i class="symbol fas fa-user-friends"></i><span>3 orang<span>
+                    <div class="deskripsi-text-line"> <i class="symbol fas fa-user-friends"></i><span>3 Orang<span>
                     </div>
                     <div class="deskripsi-text-line"> <i class="symbol fa fa-dollar-sign"></i><span>Rp. 60,000<span>
                     </div>
                     <h4>Hadiah</h4>
                     <hr>
-                    <div class="deskripsi-text-line"> <b class="symbol">#1</b><span>Rp 2.000.000<span>
+                    <div class="deskripsi-text-line"> <b class="symbol">#1</b><span>Rp 2.000.000 + Sertifikat <span>
                     </div>
-                    <div class="deskripsi-text-line"> <b class="symbol">#2</b><span>Rp 1.500.000<span>
+                    <div class="deskripsi-text-line"> <b class="symbol">#2</b><span>Rp 1.500.000 + Sertifikat <span>
                     </div>
-                    <div class="deskripsi-text-line"> <b class="symbol">#3</b><span>Rp 1.000.000<span>
+                    <div class="deskripsi-text-line"> <b class="symbol">#3</b><span>Rp 1.000.000 + Sertifikat <span>
                     </div>
                     <h4>Timeline</h4>
                     <hr>
@@ -132,23 +132,23 @@
                 </div>
             </div>
             <div class="page page-2">
-                <div class="scroll-text"><span>SCROLL AKU UNTUK SELENGKAPNYA</span></div>
+                <div class="scroll-text"><span>SCROLL UNTUK SELENGKAPNYA</span></div>
                 <div class="deskripsi-wrapper">
                     <p class="deskripsi-lomba">Asah kreatifitasmu dalam <span>Bidang UI/UX</span> dengan mengikuti
                          UI/UX</p>
                     <h4>Ketentuan</h4>
                     <hr>
-                    <div class="deskripsi-text-line"> <i class="symbol fas fa-user"></i><span>Warga Indonesia<span>
+                    <div class="deskripsi-text-line"> <i class="symbol fas fa-user"></i><span>Mahasiswa Aktif<span>
                     </div>
-                    <div class="deskripsi-text-line"> <i class="symbol fas fa-user-friends"></i><span>1-7 orang<span>
+                    <div class="deskripsi-text-line"> <i class="symbol fas fa-user-friends"></i><span>2-3 Orang<span>
                     </div>
-                    <div class="deskripsi-text-line"> <i class="symbol fa fa-dollar-sign"></i><span>FREE!<span>
+                    <div class="deskripsi-text-line"> <i class="symbol fa fa-dollar-sign"></i><span>Rp. 50.000<span>
                     </div>
                     <h4>Hadiah</h4>
                     <hr>
-                    <div class="deskripsi-text-line"> <b class="symbol">#1</b><span>Rp 1.500.000<span> </div>
-                    <div class="deskripsi-text-line"> <b class="symbol">#2</b><span>Rp 1.000.000<span> </div>
-                    <div class="deskripsi-text-line"> <b class="symbol">#3</b><span>Rp 750.000<span> </div>
+                    <div class="deskripsi-text-line"> <b class="symbol">#1</b><span>Rp 2.000.000 + Sertifikat <span> </div>
+                    <div class="deskripsi-text-line"> <b class="symbol">#2</b><span>Rp 1.500.000 + Sertifikat <span> </div>
+                    <div class="deskripsi-text-line"> <b class="symbol">#3</b><span>Rp 1.000.000 + Sertifikat <span> </div>
                     <h4>Timeline</h4>
                     <hr>
                     <div class="deskripsi-text-line timeline"> 
@@ -174,6 +174,10 @@
                     <div class="deskripsi-text-line timeline"> 
                         <b class="justify">Final</b>
                         <span class="right">22 Oktober 2022<span> 
+                    </div> 
+                    <div class="deskripsi-text-line timeline"> 
+                        <b class="justify">Pengumuman</b>
+                        <span class="right">12 November 2022<span> 
                     </div> 
                     <div class="button-bawah-wrapper">
                         <div class="guide-book-button">
@@ -212,25 +216,25 @@
                 </div>
             </div>
             <div class="page page-2">
-                <div class="scroll-text"><span>SCROLL AKU UNTUK SELENGKAPNYA</span></div>
+                <div class="scroll-text"><span>SCROLL UNTUK SELENGKAPNYA</span></div>
                 <div class="deskripsi-wrapper">
                     <p class="deskripsi-lomba">Uji kemampuan kamu mengenai <span>permainan game kamu</span> dengan
                         mengikuti Esport</p>
                     <h4>Ketentuan</h4>
                     <hr>
-                    <div class="deskripsi-text-line"> <i class="symbol fas fa-user"></i><span>S1/D3/Sederajat<span>
+                    <div class="deskripsi-text-line"> <i class="symbol fas fa-user"></i><span>SMA/SMK/S1/D3/Sederajat<span>
                     </div>
-                    <div class="deskripsi-text-line"> <i class="symbol fas fa-user-friends"></i><span>1-3 orang<span>
+                    <div class="deskripsi-text-line"> <i class="symbol fas fa-user-friends"></i><span>5 Orang<span>
                     </div>
-                    <div class="deskripsi-text-line"> <i class="symbol fa fa-dollar-sign"></i><span>Rp 75.000<span>
+                    <div class="deskripsi-text-line"> <i class="symbol fa fa-dollar-sign"></i><span>Rp 100.000<span>
                     </div>
                     <h4>Hadiah</h4>
                     <hr>
-                    <div class="deskripsi-text-line"> <b class="symbol">#1</b><span>Rp 2.000.000<span>
+                    <div class="deskripsi-text-line"> <b class="symbol">#1</b><span>Rp 2.000.000 + Sertifikat <span>
                     </div>
-                    <div class="deskripsi-text-line"> <b class="symbol">#2</b><span>Rp 1.500.000<span>
+                    <div class="deskripsi-text-line"> <b class="symbol">#2</b><span>Rp 1.500.000 + Sertifikat <span>
                     </div>
-                    <div class="deskripsi-text-line"> <b class="symbol">#3</b><span>Rp 1.000.000<span>
+                    <div class="deskripsi-text-line"> <b class="symbol">#3</b><span>Rp 1.000.000 + Sertifikat <span>
                     </div>
                     <h4>Timeline</h4>
                     <hr>
@@ -259,7 +263,7 @@
                         <span class="right">30 Oktober 2022<span> 
                     </div>
                     <div class="deskripsi-text-line timeline"> 
-                        <b class="justify">Pengumuman Juara</b>
+                        <b class="justify">Pengumuman</b>
                         <span class="right">12 November 2022<span> 
                     </div>
                     <div class="button-bawah-wrapper">
@@ -300,23 +304,23 @@
                 </div>
             </div>
             <div class="page page-2">
-                <div class="scroll-text"><span>SCROLL AKU UNTUK SELENGKAPNYA</span></div>
+                <div class="scroll-text"><span>SCROLL UNTUK SELENGKAPNYA</span></div>
                 <div class="deskripsi-wrapper">
                     <p class="deskripsi-lomba">Uji kemampuan kamu mengenai <span>Design kalian</span> dengan
                         mengikuti Poster Digital</p>
                     <h4>Ketentuan</h4>
                     <hr>
-                    <div class="deskripsi-text-line"> <i class="symbol fas fa-user"></i><span>S1/D3/Sederajat<span>
+                    <div class="deskripsi-text-line"> <i class="symbol fas fa-user"></i><span>SMA/SMK/S1/D3/Sederajat<span>
                     </div>
-                    <div class="deskripsi-text-line"> <i class="symbol fas fa-user-friends"></i><span>1-3 orang<span>
+                    <div class="deskripsi-text-line"> <i class="symbol fas fa-user-friends"></i><span>1 Orang<span>
                     </div>
-                    <div class="deskripsi-text-line"> <i class="symbol fa fa-dollar-sign"></i><span>FREE!<span>
+                    <div class="deskripsi-text-line"> <i class="symbol fa fa-dollar-sign"></i><span>Rp. 25.000<span>
                     </div>
                     <h4>Hadiah</h4>
                     <hr>
-                    <div class="deskripsi-text-line"> <b class="symbol">#1</b><span>Rp 1.000.000 + Sertifikat<span> </div>
-                    <div class="deskripsi-text-line"> <b class="symbol">#2</b><span>Rp 750.000 + Sertifikat<span> </div>
-                    <div class="deskripsi-text-line"> <b class="symbol">#3</b><span>Rp 500.000 + Sertifikat<span> </div>
+                    <div class="deskripsi-text-line"> <b class="symbol">#1</b><span>Rp 700.000 + Sertifikat<span> </div>
+                    <div class="deskripsi-text-line"> <b class="symbol">#2</b><span>Rp 500.000 + Sertifikat<span> </div>
+                    <div class="deskripsi-text-line"> <b class="symbol">#3</b><span>Rp 300.000 + Sertifikat<span> </div>
                     <h4>Timeline</h4>
                     <hr>
                     <div class="deskripsi-text-line timeline"> 
@@ -328,8 +332,8 @@
                         <span class="right">17 Oktober 2022<span> 
                     </div>
                     <div class="deskripsi-text-line timeline"> 
-                        <b class="justify">Pengumuman Juara</b>
-                        <span class="right">12 November 2021<span> 
+                        <b class="justify">Pengumuman</b>
+                        <span class="right">12 November 2022<span> 
                     </div> 
                     <div class="button-bawah-wrapper">
                         <div class="guide-book-button">
@@ -368,7 +372,7 @@
         </div>
     </div>
 
-    <div class="item sponsor">
+    <!-- <div class="item sponsor">
         <p>Our Sponsors</p>
         <div class="sponsor-container">
             <div class="big-wrapper">
@@ -401,5 +405,5 @@
             </div>
         </div> 
     </div>
-
+ -->
     <script src="<?php echo base_url('public/pingfest/js/itv.min.js'); ?>"></script>
