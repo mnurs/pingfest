@@ -12,6 +12,7 @@ class UIUX_model extends CI_Model
     public $phone; 
     public $email; 
     public $members; 
+    public $hasil; 
 
     public function rules()
     {
@@ -50,6 +51,7 @@ class UIUX_model extends CI_Model
         $this->phone = $post["phone"]; 
         $this->email = $post["email"]; 
         $this->members = $post["members"]; 
+        $this->hasil = $post["hasil"]; 
         return $this->db->insert($this->_table, $this);
     }
 
@@ -63,6 +65,7 @@ class UIUX_model extends CI_Model
         $this->phone = $post["phone"]; 
         $this->email = $post["email"]; 
         $this->members = $post["members"]; 
+        $this->hasil = $post["hasil"]; 
         return $this->db->update($this->_table, $this, array('user_id' => $post['user_id']));
     }
 

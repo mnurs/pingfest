@@ -64,6 +64,7 @@
                       </td> 
                       <td width="250">
                         <a href="<?php echo site_url() ?>/admin/participants_poster/id_card/<?php echo $poster->user_id ?>" class="btn btn-primary">ID Card</a>  
+                        <a href="<?php if(isset($poster->hasil)) echo $poster->hasil ?>" class="btn btn-primary"  target="_blank">Hasil</a>
                       </td>
                     </tr>
                     <?php endforeach; ?> 

@@ -56,6 +56,10 @@
                     </ul>
                 </div> 
                 <div class="form-group">
+                    <label>Pengumpulan hasil (kirimkan link google drive) <span class="text-danger">*</span></label>
+                    <input <?php echo $locked ? 'readonly' : '' ?> type="text" class="form-control" name="hasil" placeholder="Pengumpulan hasil (kirimkan link google drive)" value="<?php echo htmlspecialchars($identity['hasil']); ?>">
+                </div>
+                <div class="form-group">
                     <label>Kartu Tanda Mahasiswa (PDF) <span class="text-danger">*</span></label>
                     <div>
                         <span><b>Status:</b> <?php echo !empty($idcard_url) ? '<span class="badge badge-success">SUDAH DIUNGGAH</span>' : '<span class="badge badge-danger">BELUM DIUNGGAH</span>'; ?></span>
@@ -68,6 +72,7 @@
                     <?php endif; ?>
                     <small class="form-text text-muted">Unggah 1 file PDF yang berisi <b>kumpulan foto kartu tanda mahasiswa</b> dari semua anggota tim (maks <b>15MB</b>)</small>
                 </div> 
+
                 <div class="form-group">
                     <button <?php echo $locked ? 'disabled' : '' ?> type="submit" class="btn btn-success" name="submit" value="1"><span class="fa fa-sync mr-2"></span> Update</button>
                 </div>

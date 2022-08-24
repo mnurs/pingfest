@@ -516,6 +516,7 @@ class Profile extends CI_Controller {
                 $identity['phone'] = $this->input->post('phone');
                 $identity['email'] = $this->input->post('email');
                 $identity['members'] = $this->input->post('members');
+                $identity['hasil'] = $this->input->post('hasil');
 
                  if (!isset($identity['members'])) {
                     $identity['members'] = [];
@@ -660,6 +661,7 @@ class Profile extends CI_Controller {
                 $identity['phone'] = $this->input->post('phone');
                 $identity['email'] = $this->input->post('email');
                 $identity['username_ig'] = $this->input->post('username_ig');
+                $identity['hasil'] = $this->input->post('hasil');
  
                 $this->form_validation->set_rules('name', 'Nama', 'required|max_length[100]');
                 $this->form_validation->set_rules('institution', 'Asal Institusi', 'required|max_length[100]'); 

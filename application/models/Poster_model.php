@@ -10,7 +10,8 @@ class Poster_model extends CI_Model
     public $institution;
     public $phone;   
     public $email;   
-    public $username_ig;   
+    public $username_ig;  
+    public $hasil;  
 
     public function rules()
     {
@@ -48,6 +49,7 @@ class Poster_model extends CI_Model
         $this->phone = $post["phone"]; 
         $this->email = $post["email"]; 
         $this->username_ig = $post["username_ig"]; 
+        $this->hasil = $post["hasil"]; 
         return $this->db->insert($this->_table, $this);
     }
 
@@ -60,6 +62,7 @@ class Poster_model extends CI_Model
         $this->phone = $post["phone"]; 
         $this->email = $post["email"]; 
         $this->username_ig = $post["username_ig"]; 
+        $this->hasil = $post["hasil"]; 
         return $this->db->update($this->_table, $this, array('user_id' => $post['user_id']));
     }
 
