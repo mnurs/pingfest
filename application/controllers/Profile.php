@@ -333,6 +333,7 @@ class Profile extends CI_Controller {
                     $identity['phone'] = $this->user['phone'];
                     $identity['email'] = $this->user['email']; 
                     $identity['username_ig'] = "";
+                    $identity['hasil'] = ''; 
                     if ($this->events->poster_add($identity)) {
                         $_SESSION['profile_status'] = 'SUCCESS: Berhasil membuat identitas. Silakan lengkapi identitas keikutsertaan anda sebelum terkunci';
                     } else {
@@ -347,6 +348,7 @@ class Profile extends CI_Controller {
                     $identity['leader'] = $this->user['name'];
                     $identity['email'] = $this->user['email']; 
                     $identity['members'] = [];
+                    $identity['hasil'] = ''; 
                     if ($this->events->uiux_add($identity)) {
                         $_SESSION['profile_status'] = 'SUCCESS: Berhasil membuat identitas. Silakan lengkapi identitas keikutsertaan anda sebelum terkunci';
                     } else {
@@ -372,6 +374,8 @@ class Profile extends CI_Controller {
                     $identity = [];
                     $identity['user_id'] = $_SESSION['user_id'];
                     $identity['institution'] = '';
+                    $identity['informasi'] = 'Instagram';
+                    $identity['informasi_lain'] = '';
                     if ($this->events->semnas_add($identity)) {
                         $_SESSION['profile_status'] = 'SUCCESS: Berhasil membuat identitas. Silakan lengkapi identitas keikutsertaan anda sebelum terkunci';
                     } else {
@@ -835,6 +839,8 @@ class Profile extends CI_Controller {
 
                 $identity = [];
                 $identity['institution'] = $this->input->post('institution');
+                $identity['informasi'] = $this->input->post('informasi');
+                $identity['informasi_lain'] = $this->input->post('informasi_lain');
 
                 if ($this->events->semnas_set($_SESSION['user_id'], $identity)) {
                     $_SESSION['profile_status'] = 'SUCCESS: Berhasil memperbarui identitas. Terima kasih telah mendaftar pada event kami';

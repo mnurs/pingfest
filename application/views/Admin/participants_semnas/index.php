@@ -36,6 +36,7 @@
                       <th>Nama</th>
                       <th>E-mail</th> 
                       <th>Institusi</th>
+                      <th>Sumber Informasi</th>
                       <!-- <th>Action</th> -->
                     </tr>
                   </thead>
@@ -53,6 +54,10 @@
                       </td>
                       <td>
                         <?php echo $semnas->institution ?>
+                      </td>
+                      <td>
+                        <?php echo $semnas->informasi ?> 
+                        <?php if(isset($semnas->informasi_lain)) echo ": ". $semnas->informasi_lain ?> 
                       </td>
                       <!-- <td width="250"> -->
                         <!-- <a href="<?php echo site_url('admin/products/edit/'.$product->product_id) ?>"
