@@ -73,7 +73,7 @@
                         </svg>
                         <h4>Tempat</h4>
                         <div class="text-box-wrapper"> 
-                            <p>Auditorium UNS</p>
+                            <p><a href="http://uns.id/auditorium" target="_blank">Auditorium UNS</a></p>
                         </div>
                     </div>
                 </div>
