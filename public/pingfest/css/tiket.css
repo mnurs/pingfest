@@ -1,6 +1,13 @@
+* {
+	font-family: 'Chivo', sans-serif;
+	
+    -webkit-print-color-adjust: exact !important;
+    color-adjust: exact !important;
+    print-color-adjust: exact !important;
+}
+
 .ticket {
   display: flex;
-  font-family: Roboto;
   margin: 16px;
   border: 1px solid #e0e0e0;
   position: relative;
@@ -159,10 +166,18 @@
   text-overflow: ellipsis;
 }
 
+.qrcode {
+  margin-left: 0.5cm;
+  margin-top: 0.69cm;
+}
+
 .logo-ping{
   height:70px
 }
 .logo-ping svg{
+  padding: 2px;
+  background-color: white;
+  border-radius: 3px;
   position:relative;
   fill:var(--dark-color);
   width:2.2rem;
@@ -175,10 +190,32 @@
   text-decoration:none
 }
 .logo-ping span{
+  font-family: 'Bree Serif', serif;
   position:relative;
   left:5px;
-  color:black;
+  color:white;
   font-size:2rem;
   font-weight:500;
   letter-spacing:2px
+}
+
+.logo-ping path:nth-child(1) {
+  fill: #ee7929;
+}
+.logo-ping path:nth-child(2) {
+  fill: #e52129;
+}
+.logo-ping path:nth-child(3) {
+  fill: #acce22;
+}
+.logo-ping path:nth-child(4) {
+  fill: #00a2e9;
+}
+
+@media print {
+  @page {
+	margin: 0;
+    size: A4 landscape;
+  }
+  body { margin: 15em 2em 2em 2em; }
 }
