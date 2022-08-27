@@ -140,8 +140,8 @@
                     <p> <a href="http://uns.id/fatisda" target="_blank">Gedung B FMIPA UNS, Surakarta, Jawa Tengah 57126</a> </p>
 
                     <i class="fa fa-phone"></i>
-                    <p> <a href="http://wa.me/6285697128373" target="_blank">(+62) 856 9712 8373</a> (mahen) <br> <a
-                            href="http://wa.me/6288975594710" target="_blank"> (+62) 889 7559 4710</a> (adeline)</p>
+                    <p> <a href="http://wa.me/6288975594710" target="_blank">(+62) 889 7559 4710</a> (adeline) <br> <a
+                        href="http://wa.me/6285697128373" target="_blank">(+62) 856 9712 8373</a> (mahen)</p>
 
                     <i class="fa fa-envelope"></i>
                     <p><a href="mailto:pingfest.himasteruns@gmail.com">pingfest.himasteruns@gmail.com</a></p>
