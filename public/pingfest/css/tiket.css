@@ -208,7 +208,7 @@
 }
 @media print {
   @page {
-	margin: 0;
+    margin: 0;
     size: A4 landscape;
   }
   body { margin: 15em 2em 2em 2em; }
