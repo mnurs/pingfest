@@ -7,11 +7,11 @@
     <div class="item-headline">
         <h1 class="auto-scroll">Webinar Nasional</h1>
         <div class="idea-container">
-            <div class="hay-text idea">Wonderland</div>
+            <div class="hay-text" style="color:var(--green-color)">Wonderland</div>
             &#160;
-            <div class="hay-text idea">of</div>
+            <div class="hay-text">of</div>
             &#160;
-            <div class="hay-text idea">IT</div>
+            <div class="hay-text">IT</div>
         </div>
         <!-- <h1>Powered By Upscale & Bit</h1> -->
     </div>
@@ -117,17 +117,17 @@
                     <a href="https://www.youtube.com/c/WebProgrammingUNPAS" target="_blank">
                         <img src="<?php echo base_url('public/pingfest/img/pembicara.png'); ?>" alt="sandhika">
                     </a>
-                    <h2>???????</</h2>
-                    <p>???????</</p>
-                    <p>???????</</p>
+                    <h2>???????</h2>
+                    <p>???????</p>
+                    <p>???????</p>
                 </div>
                 <div class="pembicara">
                     <a href="https://www.youtube.com/c/KevinAnggara" target="_blank">
                         <img src="<?php echo base_url('public/pingfest/img/pembicara.png'); ?>" alt="kevin">
                     </a>
                     <h2>???????</h2>
-                    <p>???????</</p>
-                    <p>???????</</p>
+                    <p>???????</p>
+                    <p>???????</p>
                 </div>
             </div>
         </div>
@@ -169,4 +169,4 @@
 
 
 
-<!-- <script src="<?php echo base_url('public/pingfest/js/semnas.min.js'); ?>"></script> -->
+<script src="<?php echo base_url('public/pingfest/js/semnas.min.js'); ?>"></script>
