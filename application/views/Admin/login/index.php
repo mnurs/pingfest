@@ -13,7 +13,7 @@
             <div>
                 <h1 class="logo-badge text-whitesmoke"><span class="fa fa-user-circle"></span></h1>
             </div>
-                <h3 class="text-whitesmoke">Pingfest 2021</h3>
+                <h3 class="text-whitesmoke">Pingfest 2022</h3>
                 <p class="text-whitesmoke">Sign In</p>
             <div class="container-content">
                 <form class="margin-t">

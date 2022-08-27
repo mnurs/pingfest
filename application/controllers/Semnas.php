@@ -28,7 +28,7 @@ class Semnas extends CI_Controller {
 
 	public function index()
 	{
-		$this->load->view('templates/header', ['title' => 'Pingfest 2021']);
+		$this->load->view('templates/header', ['title' => 'Pingfest 2022']);
 		$this->load->view('semnas/index');
 		$this->load->view('templates/footer');
 	}
