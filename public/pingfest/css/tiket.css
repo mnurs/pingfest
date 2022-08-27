@@ -1,11 +1,9 @@
 * {
-	font-family: 'Chivo', sans-serif;
-	
-    -webkit-print-color-adjust: exact !important;
-    color-adjust: exact !important;
-    print-color-adjust: exact !important;
+  font-family: 'Chivo', sans-serif;	
+  -webkit-print-color-adjust: exact !important;
+  color-adjust: exact !important;
+  print-color-adjust: exact !important;
 }
-
 .ticket {
   display: flex;
   margin: 16px;
@@ -165,12 +163,10 @@
   overflow: hidden;
   text-overflow: ellipsis;
 }
-
 .qrcode {
   margin-left: 0.5cm;
   margin-top: 0.69cm;
 }
-
 .logo-ping{
   height:70px
 }
@@ -198,7 +194,6 @@
   font-weight:500;
   letter-spacing:2px
 }
-
 .logo-ping path:nth-child(1) {
   fill: #ee7929;
 }
@@ -211,7 +206,6 @@
 .logo-ping path:nth-child(4) {
   fill: #00a2e9;
 }
-
 @media print {
   @page {
 	margin: 0;
