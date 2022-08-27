@@ -137,7 +137,7 @@
                 <h4>Hubungi Kami</h4>
                 <div class="hubungi-wrapper">
                     <i class="fa fa-map-marker"></i>
-                    <p>Gedung B FMIPA UNS, Surakarta, Jawa Tengah 57126 </p>
+                    <p> <a href="http://uns.id/fatisda" target="_blank">Gedung B FMIPA UNS, Surakarta, Jawa Tengah 57126</a> </p>
 
                     <i class="fa fa-phone"></i>
                     <p> <a href="http://wa.me/6285697128373" target="_blank">(+62) 856 9712 8373</a> (mahen) <br> <a
@@ -150,7 +150,7 @@
             <div class="footer-col peta">
                 <h4>Peta</h4>
                 <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3000!2d110.85813372914988!3d-7.558964770208452!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a1703aead1c11%3A0x8952c6ad35b2ccba!2sGedung+A+FMIPA+UNS!5e0!3m2!1sid!2sid!4v1566205773139!5m2!1sid!2sid"
+                    src="https://maps.google.com/maps?q=%20Gedung%20B%20FMIPA%20UNS,%20Surakarta,%20Jawa%20Tengah%2057126&t=&z=13&ie=UTF8&iwloc=&output=embed"
                     style="border:0;" allowfullscreen="" width="100%" height="100%" frameborder="0"></iframe>
             </div>
             <div class="footer-col follow">
