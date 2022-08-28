@@ -77,7 +77,7 @@
                             <?php if (!empty($event['available'])): ?>
                                 <span class="badge badge-success">PENDAFTARAN DIBUKA</span>
                             <?php else: ?>
-                                <span class="badge badge-danger">PENDAFTARAN DITUTUP</span>
+                                <span class="badge badge-danger">PENDAFTARAN BELUM DIBUKA</span>
                             <?php endif; ?>
                         </div>
                         <div class="text-center mt-2">Harga: <b><?php echo !empty($event['price']) ? rupiah($event['price']) : 'GRATIS'; ?></b></div>

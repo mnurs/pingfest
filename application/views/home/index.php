@@ -19,7 +19,7 @@
 
 <div class="grid-container">
     <div class="item headline ">
-        <h1>Ayo ikuti pekan teknologi</h1>
+        <h1>Ayo ikuti pekan informasi dan teknologi</h1>
         <h1>P!NGFEST 2022</h1>
         <div class="riseit-container"> 
             <div style="--i:1" class="hay-text">S</div>

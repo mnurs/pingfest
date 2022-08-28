@@ -62,8 +62,9 @@
                         </svg>
                         <h4>Waktu</h4>
                         <div class="text-box-wrapper">
-                            <p>12 November 2022</p>
-                            <p>12.00 WIB - Selesai</p>
+                            <!-- <p>12 November 2022</p>
+                            <p>12.00 WIB - Selesai</p> -->
+                            <p>Coming Soon</p>
                         </div>
                     </div>
                     <div class="box-semnas">
@@ -73,7 +74,8 @@
                         </svg>
                         <h4>Tempat</h4>
                         <div class="text-box-wrapper"> 
-                            <p><a href="http://uns.id/auditorium" target="_blank">Auditorium UNS</a></p>
+                            <!-- <p><a href="http://uns.id/auditorium" target="_blank">Auditorium UNS</a></p> -->
+                            <p>Coming Soon</p>
                         </div>
                     </div>
                 </div>
@@ -85,9 +87,10 @@
                         </svg>
                         <h4>Harga</h4>
                         <div class="text-box-wrapper"> 
-                            <p><b>Rp65.000</b></p>    
+                            <!-- <p><b>Rp65.000</b></p>    
                             <p><b>Batas </b></p>
-                            <p><b>1 - 8 Oktober 2022</b></p>  
+                            <p><b>1 - 8 Oktober 2022</b></p>   -->
+                            <p>Coming Soon</p>
                         </div>
                         
                     </div>
@@ -98,12 +101,13 @@
                         </svg>
                         <h4>Narahubung</h4>
                         <div class="text-box-wrapper">
-                            <a href="http://wa.me/6288975594710" target="_blank">
+                            <!-- <a href="http://wa.me/6288975594710" target="_blank">
                                 <p>(+62) 889 7559 4710 (adeline)</p>
                             </a>
                             <a href="http://wa.me/6285697128373" target="_blank">
                                 <p>(+62) 856 9712 8373 (mahen)</p>
-                            </a>
+                            </a> -->
+                            <p>Coming Soon</p>
                         </div>
                     </div>
 

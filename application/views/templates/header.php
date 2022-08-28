@@ -52,7 +52,7 @@
                 <ul>
                     <li><a href="<?php echo site_url(); ?>" class="header-nav-link"> Home</a></li>
                     <li><a href="<?php echo site_url('itv'); ?>" class="header-nav-link"> IT-Venture</a></li>
-                    <!-- <li><a href="<?php echo site_url('semnas'); ?>" class="header-nav-link"> Semnas</a></li> -->
+                    <li><a href="<?php echo site_url('semnas'); ?>" class="header-nav-link"> Semnas</a></li>
                     <li>
                         <?php if (isset($_SESSION['user_id'])): ?>
                         <a href="<?php echo site_url('profile'); ?>" class="login-link"> Profile</a>

@@ -73,7 +73,7 @@
                       </td>
                       <td width="250">
                         <a href="<?php echo site_url() ?>/admin/participants_uiux/id_card/<?php echo $uiux->user_id ?>" class="btn btn-primary">ID Card</a>   
-                        <a href="<?php echo if(isset($uiux->hasil)) $uiux->hasil ?>" class="btn btn-primary" target="_blank">Hasil</a>
+                        <a href="<?php  if(isset($uiux->hasil)) echo $uiux->hasil ?>" class="btn btn-primary" target="_blank">Hasil</a>
                       </td>
                     </tr>
                     <?php endforeach; ?> 
