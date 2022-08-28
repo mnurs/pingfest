@@ -51,12 +51,11 @@
 		  </div>
 		  <div class="ticket--center--col">
 			<span class="ticket--info--title">Rincian</span>
-			<span  class="ticket--info--content">Dipesan oleh <?php  echo $user->name ?> (dd-mm-yyyy) <?php ?></span>
+			<span  class="ticket--info--content"><?php  echo wordwrap("Dipesan oleh ".$user->name ." pada tanggal ". date('d M Y',  $event->timestamp),30,"<br>\n");;?> <?php ?></span>
 		  </div>
 		</div>
 	  </div>
 	  <div class="ticket--end">
-		<div class="qrcode"><img src='<?php  echo "https://chart.googleapis.com/chart?chs=300x300&cht=qr&chl=".$user->user_id."&choe=UTF-8" ?>' title="Link to Google.com" style="border-radius: 3px" /></div>
 		<div class="logo-ping"> 
 		  <svg xmlns="http://www.w3.org/2000/svg" width="238.775" height="266.484"
 			  viewBox="0 0 238.775 266.484">
@@ -73,6 +72,8 @@
 		  </svg>
 		  <span class="peluklahdirikudanjangankaulepas">Pingfest</span> 
 		</div>
+
+		<div class="qrcode"><img src='<?php  echo "https://chart.googleapis.com/chart?chs=200x200&cht=qr&chl=".$user->user_id."&choe=UTF-8" ?>' title="Link to Google.com" style="border-radius: 3px" /></div>
 		<div></div>
 	  </div>
 	</div>

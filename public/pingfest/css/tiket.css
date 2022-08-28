@@ -168,7 +168,8 @@
   margin-top: 0.69cm;
 }
 .logo-ping{
-  height:70px
+  height:70px;
+  text-align: center;
 }
 .logo-ping svg{
   padding: 2px;
