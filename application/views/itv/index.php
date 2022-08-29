@@ -181,7 +181,7 @@
                     </div> 
                     <div class="button-bawah-wrapper">
                         <div class="guide-book-button">
-                            <a href="#" target="_blank" class="btn btn-arrow">
+                            <a href="https://drive.google.com/file/d/1LwSu2vOt5mE421ONwv9oMKdTN-q4ebQB/view?usp=sharing" target="_blank" class="btn btn-arrow">
                                 <span>Guide Book</span>
                             </a>
                         </div>
@@ -268,7 +268,7 @@
                     </div>
                     <div class="button-bawah-wrapper">
                         <div class="guide-book-button">
-                            <a href="https://drive.google.com/file/d/1rwLyLtYknmUAIA_igPUYaeHW2fOiADvF/view?usp=drivesdk" target="_blank" class="btn btn-arrow">
+                            <a href="https://drive.google.com/file/d/1CpuUpm-E26b6ddAFoqNZKQql6hj0NrsU/view?usp=sharing" target="_blank" class="btn btn-arrow">
                                 <span>Guide Book</span>
                             </a>
                         </div>
