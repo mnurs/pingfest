@@ -90,10 +90,11 @@
     </div> -->
 
     <div class="item logo-itv green-start">
-        <video class="logo-acara" autoplay muted loop>
+        <!-- <video class="logo-acara" autoplay muted loop>
             <source src="<?php echo base_url('public/pingfest/video/itv.webm'); ?>" type="video/webm">
             Your browser does not support the video tag.
-        </video>
+        </video> -->
+        <img class="logo-acara" src="<?php echo base_url('public/pingfest/img/itvlogo.png'); ?>" />
     </div>
 
 
