@@ -97,7 +97,7 @@
                     </div>
                     <div class="button-bawah-wrapper">
                         <div class="guide-book-button">
-                            <a href="https://drive.google.com/file/d/1IOIwkSZLl6GkJYRpHKjbsC5DLiWOEpBE/view?usp=drivesdk" target="_blank" class="btn btn-arrow">
+                            <a href="https://uns.id/GuidebookITV22_BOT" target="_blank" class="btn btn-arrow">
                                 <span>Guide Book</span>
                             </a>
                         </div>
@@ -146,8 +146,8 @@
                     </div>
                     <h4>Hadiah</h4>
                     <hr>
-                    <div class="deskripsi-text-line"> <b class="symbol">#1</b><span>Rp 2.000.000 + Sertifikat <span> </div>
-                    <div class="deskripsi-text-line"> <b class="symbol">#2</b><span>Rp 1.500.000 + Sertifikat <span> </div>
+                    <div class="deskripsi-text-line"> <b class="symbol">#1</b><span>Rp 1.500.000 + Sertifikat <span> </div>
+                    <div class="deskripsi-text-line"> <b class="symbol">#2</b><span>Rp 1.250.000 + Sertifikat <span> </div>
                     <div class="deskripsi-text-line"> <b class="symbol">#3</b><span>Rp 1.000.000 + Sertifikat <span> </div>
                     <h4>Timeline</h4>
                     <hr>
@@ -181,7 +181,7 @@
                     </div> 
                     <div class="button-bawah-wrapper">
                         <div class="guide-book-button">
-                            <a href="https://drive.google.com/file/d/1LwSu2vOt5mE421ONwv9oMKdTN-q4ebQB/view?usp=sharing" target="_blank" class="btn btn-arrow">
+                            <a href="https://uns.id/GuidebookITV22_UIUX" target="_blank" class="btn btn-arrow">
                                 <span>Guide Book</span>
                             </a>
                         </div>
@@ -268,7 +268,7 @@
                     </div>
                     <div class="button-bawah-wrapper">
                         <div class="guide-book-button">
-                            <a href="https://drive.google.com/file/d/1CpuUpm-E26b6ddAFoqNZKQql6hj0NrsU/view?usp=sharing" target="_blank" class="btn btn-arrow">
+                            <a href="https://uns.id/GuidebookITV22_ESport" target="_blank" class="btn btn-arrow">
                                 <span>Guide Book</span>
                             </a>
                         </div>
@@ -360,7 +360,7 @@
     </div>
     <div class="daftar-itv">
         <div class="itv-guide-book button">
-            <a href="#" target="_blank"
+            <a href="https://drive.google.com/drive/folders/1Rk03ptWMkqIHWB_4hhcmlGhmA-L1d3hK" target="_blank"
                 class="btn">
                 <span>Guide Book</span>
             </a>
