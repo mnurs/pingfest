@@ -97,7 +97,7 @@
                     </div>
                     <div class="button-bawah-wrapper">
                         <div class="guide-book-button">
-                            <a href="http://tiny.cc/GuidebookITV_BOT" target="_blank" class="btn btn-arrow">
+                            <a href="https://drive.google.com/file/d/1IOIwkSZLl6GkJYRpHKjbsC5DLiWOEpBE/view?usp=drivesdk" target="_blank" class="btn btn-arrow">
                                 <span>Guide Book</span>
                             </a>
                         </div>
@@ -181,7 +181,7 @@
                     </div> 
                     <div class="button-bawah-wrapper">
                         <div class="guide-book-button">
-                            <a href="http://tiny.cc/GuidebookITV_IT-Music" target="_blank" class="btn btn-arrow">
+                            <a href="#" target="_blank" class="btn btn-arrow">
                                 <span>Guide Book</span>
                             </a>
                         </div>
@@ -268,7 +268,7 @@
                     </div>
                     <div class="button-bawah-wrapper">
                         <div class="guide-book-button">
-                            <a href="http://tiny.cc/GuidebookITV_IT-Paper" target="_blank" class="btn btn-arrow">
+                            <a href="https://drive.google.com/file/d/1rwLyLtYknmUAIA_igPUYaeHW2fOiADvF/view?usp=drivesdk" target="_blank" class="btn btn-arrow">
                                 <span>Guide Book</span>
                             </a>
                         </div>
@@ -337,7 +337,7 @@
                     </div> 
                     <div class="button-bawah-wrapper">
                         <div class="guide-book-button">
-                            <a href="http://tiny.cc/GuidebookITV_IT-Paper" target="_blank" class="btn btn-arrow">
+                            <a href="#" target="_blank" class="btn btn-arrow">
                                 <span>Guide Book</span>
                             </a>
                         </div>
@@ -360,7 +360,7 @@
     </div>
     <div class="daftar-itv">
         <div class="itv-guide-book button">
-            <a href="https://drive.google.com/drive/folders/1GuJ0DZSDXGbRLSXWGzrCbfBo-vQg-w5C" target="_blank"
+            <a href="#" target="_blank"
                 class="btn">
                 <span>Guide Book</span>
             </a>

@@ -349,6 +349,7 @@ class Profile extends CI_Controller {
                     $identity['email'] = $this->user['email']; 
                     $identity['members'] = [];
                     $identity['hasil'] = ''; 
+                    $identity['presentasi'] = ''; 
                     if ($this->events->uiux_add($identity)) {
                         $_SESSION['profile_status'] = 'SUCCESS: Berhasil membuat identitas. Silakan lengkapi identitas keikutsertaan anda sebelum terkunci';
                     } else {
@@ -521,6 +522,7 @@ class Profile extends CI_Controller {
                 $identity['email'] = $this->input->post('email');
                 $identity['members'] = $this->input->post('members');
                 $identity['hasil'] = $this->input->post('hasil');
+                $identity['presentasi'] = $this->input->post('presentasi');
 
                  if (!isset($identity['members'])) {
                     $identity['members'] = [];

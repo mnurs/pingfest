@@ -56,8 +56,12 @@
                     </ul>
                 </div> 
                 <div class="form-group">
-                    <label>Pengumpulan hasil (kirimkan link google drive) <span class="text-danger">*</span></label>
+                    <label>Pengumpulan hasil (kirimkan link google drive)</label>
                     <input <?php echo $locked ? 'readonly' : '' ?> type="text" class="form-control" name="hasil" placeholder="Pengumpulan hasil (kirimkan link google drive)" value="<?php echo htmlspecialchars($identity['hasil']); ?>">
+                </div>
+                <div class="form-group">
+                    <label>Pengumpulan presentasi</label>
+                    <input <?php echo $locked ? 'readonly' : '' ?> type="text" class="form-control" name="presentasi" placeholder="Pengumpulan presentasi" value="<?php echo htmlspecialchars($identity['presentasi']); ?>">
                 </div>
                 <div class="form-group">
                     <label>Kartu Tanda Mahasiswa (PDF) <span class="text-danger">*</span></label>

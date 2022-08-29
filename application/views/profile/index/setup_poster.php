@@ -40,7 +40,7 @@
                     <input <?php echo $locked ? 'readonly' : '' ?> type="text" class="form-control" name="username_ig" placeholder="Username IG" value="<?php echo htmlspecialchars($identity['username_ig']); ?>">
                 </div> 
                 <div class="form-group">
-                    <label>Pengumpulan hasil (kirimkan link google drive) <span class="text-danger">*</span></label>
+                    <label>Pengumpulan hasil (kirimkan link google drive)</label>
                     <input <?php echo $locked ? 'readonly' : '' ?> type="text" class="form-control" name="hasil" placeholder="Pengumpulan hasil (kirimkan link google drive) " value="<?php echo htmlspecialchars($identity['hasil']); ?>">
                 </div> 
                 <div class="form-group">
