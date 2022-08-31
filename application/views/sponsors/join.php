@@ -26,7 +26,7 @@
             <div>Proposal: <a href="https://bit.ly/SponsorPingfest2021">klik di sini</a></div>
         </div><br>
         <div class="mt-2">
-            <iframe width="100%" height="720px" src="https://drive.google.com/file/d/1GWE7pmnmMO5MArATZ1iOQ_IHVr8hZF8n/preview"></iframe>
+            <iframe width="100%" height="720px" src="https://drive.google.com/file/d/1G-6WS4eLOALfBCpRfMja6SyPYpYB31Vh/preview"></iframe>
         </div>
     </div>
 </div>
