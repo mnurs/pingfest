@@ -42,6 +42,7 @@
                                         <ul class="list-group">
                                             <li class="list-group-item bg-secondary text-white"><h5>Pembayaran</h5></li>
                                             <li class="list-group-item">Segera lakukan pembayaran ke rekening tujuan sesuai dengan informasi di bawah. Setelah melakukan pembayaran, anda dapat langsung mengisi identitas anda untuk acara ini.</li>
+                                            <li class="list-group-item">Setelah melakukan pembayaran harap konfirmasi pembayaran ke nomor telepon berikut <br><a href="https://wa.me/6289639507297" target="_blank">(+62)896-3950-7297 (Shalsabila Aura Adia)</a></li>
                                             <li class="list-group-item">
                                                 <b>Status Tagihan:</b>
                                                 <?php if (time() < $registration[$event['event_id']]['expired']): ?>
