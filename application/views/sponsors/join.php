@@ -23,10 +23,10 @@
             <div>Contact e-mail: <a href="mailto:sponsorshipping@gmail.com">sponsorshipping@gmail.com</a></div>
             <div>Contact phone: <a href="https://wa.me/6289666242204">+6282133720234 (Sarah Ulayya)</a></div>
             <div>Contact line: <a href="#">sarahulayya7</a></div>
-            <div>Proposal: <a href="https://bit.ly/SponsorPingfest2021">klik di sini</a></div>
+            <div>Proposal: <a href="https://drive.google.com/file/d/1JyuxEkujF9de_Zp1P_qZzY-K66JH0XXY/view" target="_blank">klik di sini</a></div>
         </div><br>
         <div class="mt-2">
-            <iframe width="100%" height="720px" src="https://drive.google.com/file/d/1G-6WS4eLOALfBCpRfMja6SyPYpYB31Vh/preview"></iframe>
+            <iframe width="100%" height="720px" src="https://drive.google.com/file/d/1JyuxEkujF9de_Zp1P_qZzY-K66JH0XXY/preview"></iframe>
         </div>
     </div>
 </div>

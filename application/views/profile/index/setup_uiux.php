@@ -80,6 +80,8 @@
                 <div class="form-group">
                     <button <?php echo $locked ? 'disabled' : '' ?> type="submit" class="btn btn-success" name="submit" value="1"><span class="fa fa-sync mr-2"></span> Update</button>
                     <a class="btn btn-primary" href="https://chat.whatsapp.com/JVVoAbbnGUcKUb45ei8IhI" target="_blank"><span class="fa fa-user-plus mr-2"></span> Gabung Group Whatsapp</a>
+                    <a class="btn btn-warning" href="<?php echo base_url('public/pingfest/img/maskot_P!NG.png'); ?>" target="_blank" download="maskot_P!NG.png"><span class="fa fa-download mr-2"></span>Download Maskot</a>
+                    <a class="btn btn-warning"  href="<?php echo base_url('public/pingfest/img/logo_P!NG.png'); ?>" target="_blank" download="logo_P!NG.png"><span class="fa fa-download mr-2"></span>Download Logo</a>
                 </div>
             </form>
         </div>
