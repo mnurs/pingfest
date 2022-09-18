@@ -337,7 +337,7 @@
                     </div> 
                     <div class="button-bawah-wrapper">
                         <div class="guide-book-button">
-                            <a href="#" target="_blank" class="btn btn-arrow">
+                            <a href="http://uns.id/GuidebookITV22_Poster" target="_blank" class="btn btn-arrow">
                                 <span>Guide Book</span>
                             </a>
                         </div>
