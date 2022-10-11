@@ -27,7 +27,7 @@
             <div>Proposal Media Partner: <a href="https://uns.id/ProposalMediaPartnerPINGFEST22" target="_blank">klik di sini</a></div>
         </div><br>
         <div class="mt-2">
-            <iframe width="100%" height="720px" src="https://drive.google.com/file/d/1s5l9aJsXOqGg6mh8LONR7oprnyG9TKCa/preview"></iframe>
+            <iframe width="100%" height="720px" src="https://drive.google.com/file/d/1axBHfMEIcaoSZlkYHzKNehTWyrkoxeGR/preview"></iframe>
 
             <iframe width="100%" height="720px" src="https://drive.google.com/file/d/1ithbWpnkSL9TPyZBN_FE1shrQg7NjM_L/preview"></iframe>
         </div>

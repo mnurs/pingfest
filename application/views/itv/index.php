@@ -69,31 +69,31 @@
                     </div>
                     <div class="deskripsi-text-line timeline"> 
                         <b class="justify">Maksimal Pendaftaran</b>
-                        <span class="right">1 Oktober 2022<span> 
-                    </div>
-                    <div class="deskripsi-text-line timeline"> 
-                        <b class="justify">Technical Meeting</b>
-                        <span class="right">20 Oktober 2022<span> 
-                    </div>
-                    <div class="deskripsi-text-line timeline"> 
-                        <b class="justify">Penyisihan</b> 
-                        <span class="right">22 Oktober 2022<span> 
-                    </div>
-                    <div class="deskripsi-text-line timeline"> 
-                        <b class="justify">Pengumuman Babak 1</b> 
-                        <span class="right">24 Oktober 2022<span> 
-                    </div>
-                    <div class="deskripsi-text-line timeline"> 
-                        <b class="justify">Technical Meeting Final</b>
-                        <span class="right">27 Oktober 2022<span> 
-                    </div>
-                    <div class="deskripsi-text-line timeline"> 
-                        <b class="justify">Final</b></i>
                         <span class="right">29 Oktober 2022<span> 
                     </div>
                     <div class="deskripsi-text-line timeline"> 
+                        <b class="justify">Technical Meeting</b>
+                        <span class="right">03 November 2022 <span> 
+                    </div>
+                    <div class="deskripsi-text-line timeline"> 
+                        <b class="justify">Penyisihan</b> 
+                        <span class="right">05 November 2022<span> 
+                    </div>
+                    <div class="deskripsi-text-line timeline"> 
+                        <b class="justify">Pengumuman Babak 1</b> 
+                        <span class="right">07 November 2022<span> 
+                    </div>
+                    <div class="deskripsi-text-line timeline"> 
+                        <b class="justify">Technical Meeting Final</b>
+                        <span class="right">17 November 2022<span> 
+                    </div>
+                    <div class="deskripsi-text-line timeline"> 
+                        <b class="justify">Final</b></i>
+                        <span class="right">19 November 2022<span> 
+                    </div>
+                    <div class="deskripsi-text-line timeline"> 
                         <b class="justify">Pengumuman</b></i>
-                        <span class="right">12 November 2022<span> 
+                        <span class="right">26 November 2022<span> 
                     </div>
                     <div class="button-bawah-wrapper">
                         <div class="guide-book-button">
@@ -157,27 +157,27 @@
                     </div>
                     <div class="deskripsi-text-line timeline"> 
                         <b class="justify">Maksimal Pendaftaran  dan Pengumpulan Karya</b>
-                        <span class="right">1 Oktober 2022<span> 
+                        <span class="right">29 Oktober 2022<span> 
                     </div>
                     <div class="deskripsi-text-line timeline"> 
                         <b class="justify">Pengumuman Penyisihan</b>
-                        <span class="right">8 Oktober 2022<span> 
+                        <span class="right">05 November 2022<span> 
                     </div>
-                    <div class="deskripsi-text-line timeline"> 
+                  <!--   <div class="deskripsi-text-line timeline"> 
                         <b class="justify">Konfirmasi Ulang Finalis</b>
                         <span class="right">8-14 Oktober 2022<span> 
-                    </div>
+                    </div> -->
                     <div class="deskripsi-text-line timeline"> 
                         <b class="justify">Technical Meeting Final</b>
-                        <span class="right">15 Oktober 2022<span> 
+                        <span class="right">06 November 2022<span> 
                     </div>
                     <div class="deskripsi-text-line timeline"> 
                         <b class="justify">Final</b>
-                        <span class="right">22 Oktober 2022<span> 
+                        <span class="right">13 November 2022<span> 
                     </div> 
                     <div class="deskripsi-text-line timeline"> 
                         <b class="justify">Pengumuman</b>
-                        <span class="right">12 November 2022<span> 
+                        <span class="right">26 November 2022<span> 
                     </div> 
                     <div class="button-bawah-wrapper">
                         <div class="guide-book-button">
@@ -244,27 +244,27 @@
                     </div>
                     <div class="deskripsi-text-line timeline"> 
                         <b class="justify">Maksimal Pendaftaran</b>
-                        <span class="right">1 Oktober 2022<span> 
-                    </div>
-                    <div class="deskripsi-text-line timeline"> 
-                        <b class="justify">Technical Meeting</b>
-                        <span class="right">20 Oktober 2022<span> 
-                    </div>
-                    <div class="deskripsi-text-line timeline"> 
-                        <b class="justify">Penyisihan</b>
-                        <span class="right">22-23 Oktober 2022<span> 
-                    </div>
-                    <div class="deskripsi-text-line timeline"> 
-                        <b class="justify">Semifinal</b>
                         <span class="right">29 Oktober 2022<span> 
                     </div>
                     <div class="deskripsi-text-line timeline"> 
+                        <b class="justify">Technical Meeting</b>
+                        <span class="right">03 November 2022<span> 
+                    </div>
+                    <div class="deskripsi-text-line timeline"> 
+                        <b class="justify">Penyisihan</b>
+                        <span class="right">05-06 November 2022<span> 
+                    </div>
+                    <div class="deskripsi-text-line timeline"> 
+                        <b class="justify">Semifinal</b>
+                        <span class="right">19 November 2022<span> 
+                    </div>
+                    <div class="deskripsi-text-line timeline"> 
                         <b class="justify">Final</b>
-                        <span class="right">30 Oktober 2022<span> 
+                        <span class="right">20 November 2022<span> 
                     </div>
                     <div class="deskripsi-text-line timeline"> 
                         <b class="justify">Pengumuman</b>
-                        <span class="right">12 November 2022<span> 
+                        <span class="right">26 November 2022<span> 
                     </div>
                     <div class="button-bawah-wrapper">
                         <div class="guide-book-button">
@@ -325,15 +325,15 @@
                     <hr>
                     <div class="deskripsi-text-line timeline"> 
                         <b class="justify">Pendaftaran, Pengumpulan, Posting Karya</b>
-                        <span class="right">19 September 2022<span> 
+                        <span class="right">10 Oktober 2022<span> 
                     </div>
                     <div class="deskripsi-text-line timeline"> 
                         <b class="justify">Batas Pendaftaran, Pengumpulan, Posting Karya</b>
-                        <span class="right">17 Oktober 2022<span> 
+                        <span class="right">06 November 2022<span> 
                     </div>
                     <div class="deskripsi-text-line timeline"> 
                         <b class="justify">Pengumuman</b>
-                        <span class="right">12 November 2022<span> 
+                        <span class="right">13 November 2022<span> 
                     </div> 
                     <div class="button-bawah-wrapper">
                         <div class="guide-book-button">
