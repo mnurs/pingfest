@@ -97,7 +97,7 @@
                     </div>
                     <div class="button-bawah-wrapper">
                         <div class="guide-book-button">
-                            <a href="https://uns.id/GuidebookITV22_BOT" target="_blank" class="btn btn-arrow">
+                            <a href="http://uns.id/GuidebookITV22_BOT" target="_blank" class="btn btn-arrow">
                                 <span>Guide Book</span>
                             </a>
                         </div>
@@ -181,7 +181,7 @@
                     </div> 
                     <div class="button-bawah-wrapper">
                         <div class="guide-book-button">
-                            <a href="https://uns.id/GuidebookITV22_UIUX" target="_blank" class="btn btn-arrow">
+                            <a href="http://uns.id/GuidebookITV22_UIUX" target="_blank" class="btn btn-arrow">
                                 <span>Guide Book</span>
                             </a>
                         </div>
@@ -268,7 +268,7 @@
                     </div>
                     <div class="button-bawah-wrapper">
                         <div class="guide-book-button">
-                            <a href="https://uns.id/GuidebookITV22_ESport" target="_blank" class="btn btn-arrow">
+                            <a href="http://uns.id/GuidebookITV22_ESport" target="_blank" class="btn btn-arrow">
                                 <span>Guide Book</span>
                             </a>
                         </div>
