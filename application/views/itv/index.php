@@ -333,7 +333,7 @@
                     </div>
                     <div class="deskripsi-text-line timeline"> 
                         <b class="justify">Pengumuman</b>
-                        <span class="right">13 November 2022<span> 
+                        <span class="right">26 November 2022<span> 
                     </div> 
                     <div class="button-bawah-wrapper">
                         <div class="guide-book-button">
