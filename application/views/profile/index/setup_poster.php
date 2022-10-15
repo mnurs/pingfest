@@ -58,6 +58,7 @@
                 </div>
                 <div class="form-group">
                     <button <?php echo $locked ? 'disabled' : '' ?> type="submit" class="btn btn-success" name="submit" value="1"><span class="fa fa-sync mr-2"></span> Update</button>
+                    <a class="btn btn-primary" href="https://chat.whatsapp.com/KLibJg9eqdH8pMQc9vi6dh" target="_blank"><span class="fa fa-user-plus mr-2"></span> Gabung Group Whatsapp</a>
                 </div>
             </form>
         </div>
