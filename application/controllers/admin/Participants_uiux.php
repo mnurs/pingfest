@@ -28,7 +28,7 @@ class Participants_UIUX extends CI_Controller {
 	public function index()
 	{
 		if(!empty($this->session->userdata("username_admin"))){
-			$data["uiuxs"] = $this->UIUX_model->getAll(); 
+			$data["uiuxs"] = $this->UIUX_model->getAll();  
 			$this->load->view('/Admin/templates/start');
 			$this->load->view('/Admin/templates/header');
 			$this->load->view('/Admin/templates/sidebar');

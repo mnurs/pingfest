@@ -32,6 +32,10 @@ class Dashboard extends CI_Controller {
 	public function index()
 	{
 		if(!empty($this->session->userdata("username_admin"))){ 
+			
+			if($this->session->userdata('username_admin') == "pingfest_uiux"){ 
+				redirect(site_url("admin/participants_uiux"));
+			} 
 			$countBettle = $this->Event_participant_model->countTableRow('battle'); 
 			$countEsport = $this->Event_participant_model->countTableRow('esport'); 
 			$countPoster = $this->Event_participant_model->countTableRow('poster'); 

@@ -29,6 +29,9 @@ class Participants_Poster extends CI_Controller {
 	{
 		if(!empty($this->session->userdata("username_admin"))){
 			$data["posters"] = $this->Poster_model->getAll(); 
+			if($this->session->userdata('username_admin') == "pingfest_uiux"){ 
+				redirect(site_url("admin/participants_uiux"));
+			} 
 			$this->load->view('/Admin/templates/start');
 			$this->load->view('/Admin/templates/header');
 			$this->load->view('/Admin/templates/sidebar');
