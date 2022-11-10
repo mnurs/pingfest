@@ -22,10 +22,7 @@
             <div class="deskripsi-main">
                 <h2>Apa itu Wonderland of IT?</h2>
                 <p>Wonderland of IT merupakan acara puncak dari P!NGFEST yang dikemas dalam bentuk webinar.</p>
-                <p> Wonderland of IT bertujuan untuk meingkatkan percaya diri pendengar untuk menemukan ide dan
-                    mengeluarkan
-                    karya
-                    yang dimiliki yang nantinya akan berguna untuk diri sendiri dan orang lain.</p>
+                <p>Wonderland of IT bertujuan agar para pendengar dapat menemukan sisi lain dari IT yang mana tidak selalu tentang pemrograman dan coding tetapi juga merupakan implementasi dari IT yang dapat berkembang ke bidang-bidang lainnya.</p>
                 <h2>Benefitnya?</h2>
                 <div class="text-wrapper">
                     <p class="list">-</p>
@@ -38,11 +35,7 @@
                 <div class="text-wrapper">
                     <p class="list">-</p>
                     <p> E-Sertifikat (jika memiliki akun dan mendaftar seminar pada website ini)</p>
-                </div> 
-                <div class="text-wrapper">
-                    <p class="list">-</p>
-                    <p> Mendapatkan snack dan merchandise</p>
-                </div>
+                </div>  
                 <div class="daftar-sem button">
                     <a href="<?php echo site_url('profile/index').'?tab=e_semnas'; ?>" class="btn daftar-block">
                         <span class="daftar-text">Daftar Sekarang</span>
@@ -62,9 +55,9 @@
                         </svg>
                         <h4>Waktu</h4>
                         <div class="text-box-wrapper">
-                            <!-- <p>12 November 2022</p>
-                            <p>12.00 WIB - Selesai</p> -->
-                            <p>Coming Soon</p>
+                            <p>Sabtu, 26 November 2022</p>
+                            <p>13.00 – 15.25 WIB</p>
+                            <!-- <p>Coming Soon</p> -->
                         </div>
                     </div>
                     <div class="box-semnas">
@@ -74,8 +67,8 @@
                         </svg>
                         <h4>Tempat</h4>
                         <div class="text-box-wrapper"> 
-                            <!-- <p><a href="http://uns.id/auditorium" target="_blank">Auditorium UNS</a></p> -->
-                            <p>Coming Soon</p>
+                            <p><i>Live streaming</i> melalui instagram dan youtube P!NGFEST 2022</p>
+                            <!-- <p>Coming Soon</p> -->
                         </div>
                     </div>
                 </div>
@@ -87,10 +80,10 @@
                         </svg>
                         <h4>Harga</h4>
                         <div class="text-box-wrapper"> 
-                            <!-- <p><b>Rp65.000</b></p>    
-                            <p><b>Batas </b></p>
-                            <p><b>1 - 8 Oktober 2022</b></p>   -->
-                            <p>Coming Soon</p>
+                            <p><b>Free</b></p>    
+                           <!--  <p><b>Batas </b></p>
+                            <p><b>1 - 8 Oktober 2022</b></p>  
+                            <p>Coming Soon</p> -->
                         </div>
                         
                     </div>
@@ -101,13 +94,13 @@
                         </svg>
                         <h4>Narahubung</h4>
                         <div class="text-box-wrapper">
-                            <!-- <a href="http://wa.me/6288975594710" target="_blank">
-                                <p>(+62) 889 7559 4710 (adeline)</p>
-                            </a>
                             <a href="http://wa.me/6285697128373" target="_blank">
                                 <p>(+62) 856 9712 8373 (mahen)</p>
-                            </a> -->
-                            <p>Coming Soon</p>
+                            </a>
+                            <a href="http://wa.me/6288975594710" target="_blank">
+                                <p>(+62) 889 7559 4710 (adeline)</p>
+                            </a>
+                            <!-- <p>Coming Soon</p> -->
                         </div>
                     </div>
 
@@ -119,11 +112,11 @@
             <div class="pembicara-wrapper">
                 <div class="pembicara">
                     <!-- <a href="https://www.youtube.com/c/WebProgrammingUNPAS" target="_blank"> !-->
-                        <img src="<?php echo base_url('public/pingfest/img/pembicara.png'); ?>" alt="sandhika">
+                        <img src="<?php echo base_url('public/pingfest/img/profile-alfan.png'); ?>" alt="Alfan Ilham Wahyudi">
                     <!-- </a> !-->
-                    <h2>???????</h2>
-                    <p>???????</p>
-                    <p>???????</p>
+                    <h2>Alfan Ilham Wahyudi</h2>
+                    <p>IT Security</p>
+                    <p>Mandala Multifinance</p>
                 </div>
                 <div class="pembicara">
                     <!-- <a href="https://www.youtube.com/c/KevinAnggara" target="_blank"> !-->
