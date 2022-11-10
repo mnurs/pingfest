@@ -225,7 +225,7 @@ h1.title {
 
 .pembicara-wrapper {
   align-items: center;
-  display: flex;
+  /*display: flex;*/
   flex-direction: row;
   justify-content: space-between;
   margin-top: 4rem;

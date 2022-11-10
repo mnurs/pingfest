@@ -110,22 +110,25 @@
         <div class="pembicara-sem">
             <h1 class="title">Pembicara</h1>
             <div class="pembicara-wrapper">
-                <div class="pembicara">
-                    <!-- <a href="https://www.youtube.com/c/WebProgrammingUNPAS" target="_blank"> !-->
-                        <img src="<?php echo base_url('public/pingfest/img/profile-alfan.png'); ?>" alt="Alfan Ilham Wahyudi">
-                    <!-- </a> !-->
-                    <h2>Alfan Ilham Wahyudi</h2>
-                    <p>IT Security</p>
-                    <p>Mandala Multifinance</p>
-                </div>
-                <div class="pembicara">
+                <center>
+                    <div class="pembicara">
+                        <!-- <a href="https://www.youtube.com/c/WebProgrammingUNPAS" target="_blank"> !-->
+                            <img src="<?php echo base_url('public/pingfest/img/profile-alfan.png'); ?>" alt="Alfan Ilham Wahyudi">
+                        <!-- </a> !-->
+                        <h2>Alfan Ilham Wahyudi</h2>
+                        <p>IT Security</p>
+                        <p>Mandala Multifinance</p>
+                    </div>
+                </center>
+                
+                <!-- <div class="pembicara"> -->
                     <!-- <a href="https://www.youtube.com/c/KevinAnggara" target="_blank"> !-->
-                        <img src="<?php echo base_url('public/pingfest/img/pembicara.png'); ?>" alt="kevin">
+                      <!--   <img src="<?php echo base_url('public/pingfest/img/pembicara.png'); ?>" alt="kevin"> -->
                     <!-- </a> !-->
-                    <h2>???????</h2>
+                    <!-- <h2>???????</h2> -->
+                    <!-- <p>???????</p>
                     <p>???????</p>
-                    <p>???????</p>
-                </div>
+                </div> -->
             </div>
         </div>
         <div class="item sponsor">
