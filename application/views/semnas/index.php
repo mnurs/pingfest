@@ -116,6 +116,7 @@
                             <img src="<?php echo base_url('public/pingfest/img/profile-alfan.png'); ?>" alt="Alfan Ilham Wahyudi">
                         <!-- </a> !-->
                         <h2>Alfan Ilham Wahyudi</h2>
+                        <p>Founder Belajar Siber</p>
                         <p>IT Security</p>
                         <p>Mandala Multifinance</p>
                     </div>

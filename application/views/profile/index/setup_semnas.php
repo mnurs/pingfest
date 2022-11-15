@@ -38,6 +38,7 @@
                 <div class="form-group">
                     <button <?php echo $locked ? 'disabled' : '' ?> type="submit" class="btn btn-success" name="submit" value="1"><span class="fa fa-sync mr-2"></span> Update</button>
                     <!-- <a href="<?php echo site_url('semnas/tiket'); ?>" target="_blank" class="btn btn-primary"><span class="fa fa-eye mr-2"></span> Lihat Tiket</a> -->
+                    <a class="btn btn-primary" href="http://uns.id/SeminarWonderlandOfIT2022" target="_blank"><span class="fa fa-user-plus mr-2"></span> Gabung Group Telegram</a>
                 </div>
             </form>
         </div>
